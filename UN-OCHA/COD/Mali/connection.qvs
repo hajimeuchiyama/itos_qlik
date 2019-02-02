@@ -1,1 +1,14 @@
-Set vLocation = 'lib://HDX/UN-OCHA/COD/Mali/';
+Set vLocation = 'lib://UN-OCHA-';
+
+[_file_list]:
+Load
+	Chr(39) & '$(vLocation)' & Concat(file_name,Chr(39)&','&Chr(39)& '$(vLocation)') & Chr(39)as file_list
+;
+Load * Inline [
+file_name
+COD_MLI.qvd
+COD_MLI_Admin0_KML.qvd
+];
+
+Let vFileList = Peek('file_list');
+Drop Table _file_list;
