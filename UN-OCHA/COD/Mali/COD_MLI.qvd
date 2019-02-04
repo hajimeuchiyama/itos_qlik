@@ -2,7 +2,7 @@
  <QvdTableHeader>
    <QvBuildNo>50600</QvBuildNo>
    <CreatorDoc>C:\Users\huchiyama\Documents\Qlik\Sense\Apps\COD Mali Test (Data Load - Tier 2).qvf</CreatorDoc>
-   <CreateUtcTime>2019-01-30 16:58:01</CreateUtcTime>
+   <CreateUtcTime>2019-01-31 16:47:14</CreateUtcTime>
    <SourceCreateUtcTime></SourceCreateUtcTime>
    <SourceFileUtcTime></SourceFileUtcTime>
    <SourceFileSize>-1</SourceFileSize>
@@ -49,8 +49,10 @@
        <Length>4</Length>
        <Comment></Comment>
        <Tags>
+         <String>$geoname</String>
          <String>$ascii</String>
          <String>$text</String>
+         <String>$key</String>
        </Tags>
      </QvdFieldHeader>
      <QvdFieldHeader>
