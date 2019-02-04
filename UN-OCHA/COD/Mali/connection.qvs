@@ -8,6 +8,10 @@ Load * Inline [
 file_name
 COD_MLI.qvd
 COD_MLI_Admin0_KML.qvd
+COD_MLI_Admin1_KML.qvd
+COD_MLI_Admin2_KML.qvd
+COD_MLI_Admin3_KML.qvd
+COD_MLI_Admin4_KML.qvd
 ];
 
 Let vFileList = Peek('file_list');
