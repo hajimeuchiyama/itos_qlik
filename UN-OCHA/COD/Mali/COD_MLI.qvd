@@ -2,7 +2,7 @@
  <QvdTableHeader>
    <QvBuildNo>50600</QvBuildNo>
    <CreatorDoc>C:\Users\huchiyama\Documents\Qlik\Sense\Apps\COD Mali Test (Data Load - Tier 2).qvf</CreatorDoc>
-   <CreateUtcTime>2019-01-31 16:47:14</CreateUtcTime>
+   <CreateUtcTime>2019-02-05 16:24:37</CreateUtcTime>
    <SourceCreateUtcTime></SourceCreateUtcTime>
    <SourceFileUtcTime></SourceFileUtcTime>
    <SourceFileSize>-1</SourceFileSize>
@@ -98,6 +98,28 @@
        </Tags>
      </QvdFieldHeader>
      <QvdFieldHeader>
+       <FieldName>#country+code+v_pcode_alpha3</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>47558</Offset>
+       <Length>5</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
        <FieldName>#adm1+i_fr+name</FieldName>
        <BitOffset>42</BitOffset>
        <BitWidth>4</BitWidth>
@@ -111,7 +133,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>9</NoOfSymbols>
-       <Offset>47558</Offset>
+       <Offset>47563</Offset>
        <Length>74</Length>
        <Comment></Comment>
        <Tags>
@@ -133,7 +155,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>9</NoOfSymbols>
-       <Offset>47632</Offset>
+       <Offset>47637</Offset>
        <Length>54</Length>
        <Comment></Comment>
        <Tags>
@@ -141,6 +163,28 @@
          <String>$ascii</String>
          <String>$text</String>
          <String>$key</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>#adm1+code+v_pcode_alpha3</FieldName>
+       <BitOffset>97</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>9</NoOfSymbols>
+       <Offset>47691</Offset>
+       <Length>63</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
        </Tags>
      </QvdFieldHeader>
      <QvdFieldHeader>
@@ -157,7 +201,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>50</NoOfSymbols>
-       <Offset>47686</Offset>
+       <Offset>47754</Offset>
        <Length>440</Length>
        <Comment></Comment>
        <Tags>
@@ -179,7 +223,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>50</NoOfSymbols>
-       <Offset>48126</Offset>
+       <Offset>48194</Offset>
        <Length>400</Length>
        <Comment></Comment>
        <Tags>
@@ -187,6 +231,28 @@
          <String>$ascii</String>
          <String>$text</String>
          <String>$key</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>#adm2+code+v_pcode_alpha3</FieldName>
+       <BitOffset>91</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>50</NoOfSymbols>
+       <Offset>48594</Offset>
+       <Length>450</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
        </Tags>
      </QvdFieldHeader>
      <QvdFieldHeader>
@@ -203,7 +269,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>685</NoOfSymbols>
-       <Offset>48526</Offset>
+       <Offset>49044</Offset>
        <Length>7131</Length>
        <Comment></Comment>
        <Tags>
@@ -214,7 +280,7 @@
      <QvdFieldHeader>
        <FieldName>#adm3+code+v_pcode</FieldName>
        <BitOffset>64</BitOffset>
-       <BitWidth>16</BitWidth>
+       <BitWidth>10</BitWidth>
        <Bias>-2</Bias>
        <NumberFormat>
          <Type>UNKNOWN</Type>
@@ -225,7 +291,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>701</NoOfSymbols>
-       <Offset>55657</Offset>
+       <Offset>56175</Offset>
        <Length>7010</Length>
        <Comment></Comment>
        <Tags>
@@ -233,6 +299,28 @@
          <String>$ascii</String>
          <String>$text</String>
          <String>$key</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>#adm3+code+v_pcode_alpha3</FieldName>
+       <BitOffset>74</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>701</NoOfSymbols>
+       <Offset>63185</Offset>
+       <Length>7711</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
        </Tags>
      </QvdFieldHeader>
      <QvdFieldHeader>
@@ -249,7 +337,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>71</NoOfSymbols>
-       <Offset>62667</Offset>
+       <Offset>70896</Offset>
        <Length>923</Length>
        <Comment></Comment>
        <Tags>
@@ -260,7 +348,7 @@
        </Tags>
      </QvdFieldHeader>
      <QvdFieldHeader>
-       <FieldName>#adm4+i_fr+name</FieldName>
+       <FieldName>#adm4+code+v_pcode_alpha3</FieldName>
        <BitOffset>57</BitOffset>
        <BitWidth>7</BitWidth>
        <Bias>-2</Bias>
@@ -273,7 +361,29 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>71</NoOfSymbols>
-       <Offset>63590</Offset>
+       <Offset>71819</Offset>
+       <Length>994</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>#adm4+i_fr+name</FieldName>
+       <BitOffset>84</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>71</NoOfSymbols>
+       <Offset>72813</Offset>
        <Length>940</Length>
        <Comment></Comment>
        <Tags>
@@ -282,10 +392,10 @@
      </QvdFieldHeader>
    </Fields>
    <Compression></Compression>
-   <RecordByteSize>10</RecordByteSize>
+   <RecordByteSize>13</RecordByteSize>
    <NoOfRecords>830</NoOfRecords>
-   <Offset>64530</Offset>
-   <Length>8300</Length>
+   <Offset>73753</Offset>
+   <Length>10790</Length>
    <Lineage></Lineage>
    <Comment></Comment>
  </QvdTableHeader>
@@ -328,39 +438,236 @@ W}»ôë?0.017188198709627674 )$#Eê ™?0.052326687278373925 ˜≤éËù∫?0.103971991384
 !∑:©ß?0.04621299252950807 ÚÀ€dg⁄?0.412560667650154 ÃÿØà„Cú?0.02760272523661271 å®yœ·ó?0.023322329069209988 "˝‹ï7⁄î?0.020363682290960423 ~–$‡ﬂI?0.0007644742147818876 k-âª?0.1057435593515219 ÛîñB5»?0.1891253693530995 Eÿ∆∆"Sª?0.10673730233142559 ÿd∑‡R@3.00943542060541 AU—‚˜æ∫?0.10447644507924726 "∫‘„¿˝£?0.03904536038531982 °òÖä9@25.542732543217998 ∏tjQV?0.0013621844849766983  µ∆2´Ä?0.008139034928390783 ˙º¿¨êfñ?0.021875629943846932 Tà•6¨Å?0.008307786386186823 0,‹√€˛í?0.018550332860325536 ‚ÆIóîjã?0.013386879794061671 Ù6~<è?0.01516726789102616 k ªµî?0.0202244971174043 ŒªƒΩ∞È|?0.007058802028310175 ì˙G{ QÅ?0.00845678509449258 `¡%´◊ß?0.04495882000162754 &…nbê?0.015710390102192794 >æóîÎè?0.015586052780945735 åœ˝XJ'à?0.011793690529635881 ‰ﬂ¿Z⁄ù?0.029153268788121425 ∏~ﬁCZ‡?0.5110186898563915 ƒ§U¯$“?0.00776876870563931 5 [∆¿∏?0.09742359965014276 ƒúqCæ∫?0.1016196169526778 tÖ©'·F‚?0.5711522841121863 ¿Ox]⁄?ƒ?0.15819863857234218 «á#a qÅ?0.008516314472618703 ¶˛]ﬂ7@2.2772815010101395 '—PÙ|Üt?0.005011070349656677 ¸jx•2¨ô?0.025070945119391102 h€a"u@3.682193863259659 ÊbÙB≠ïñ?0.022055346690737294 N	aOÕ‚?0.5875621165689979 _•¬Y≥˙?1.6687867720268839 £>NÅVà∞?0.06458035141826683 j6¨Ø—”?0.2986950126222384 Ob_ØÔß?0.04675051644125416 ;~uupÍ?0.8261802000160466 ≈h$æ—?0.27723028735188465 äÚ*  ∏·?0.5537261966015461 ›‚ïπ9î„?0.6118439316479357 ^Bzü ⁄Í?0.8391116251751318 ês6´∫∫?0.10441082814072744 ¡(Ûpr¶ô?0.025049007553015874 ˚GQÀ)⁄±?0.06973515714460625  iä™_µ?0.08348212636557331 z>,Pî˜∂?0.08971526105255548 Ô9mô4Ù§?0.04092563984760377 NÉ≠+∆˜º?0.11315573278762978 «*vÚ€b≤?0.07182097119781893 Œ∆‘Ú$¬?0.1407514749239937 Ãœ[ë¡?0.13354630086507624 @_˜oYÑÚ?1.1573118566211207 7∏·∞≈?0.16946042874781297 I´ıïe?0.0026349828933997506 2ÚÍù®™?0.0520676701466737 √ΩÏ‡a?1.0238961456017832 ¢À9xW:µ?0.08292147336196234 ?˚Áz…‹?0.4497973686920211 'p^≠•V£?0.03777044049567762 ∑–Ìí3u∑?0.09163210236676177 Õ¥∂sÙ…?0.19586043977816414 9ÜΩr+Z–?0.2555035229216603 ú»ˆST˝Â?0.6871739997789237 Oû6!⁄?0.4082770604811559 Êé\»«“?0.29344376551510576 [≥≠éËŸ?0.40481917345858215 ∑DﬂﬁZ
 ·?0.532514033600953 ôåÆ/¥hø?0.1226914040003514 `S €R˜?1.4577291396432983 [\M—Ò?1.1135399839310485 ,Ë√√Ú‚?0.5634702514209997 &ΩÓﬁ®j@2.3020799080474204 Œõ-ﬂÙ?1.2568577497383902 √Xsc‘@2.4787062440110232 )è	^ßìﬂ?0.4933870714505582 Èƒ‡ø1Ò?1.0744712348208003 lm2˜√ÂÊ?0.7155475452486093 ›¡≤TÛV›?0.45843203803363314 ØÃ,-®UÍ?0.8229561693500694 b˙(?°!Ò?1.0707104174795394 XÁÊΩÄcÕ?0.22959908745343216 5˙€£~Œ@3.100827484274556 M\Mb_@2.634947555528504 ÄTtL≤h?0.0029304964442738446 ¢´û§∆óY?0.0015620651124474767 y;a‘pY?0.0015527795812242998 hZ5∑%o?0.0037942635187094187 W{5˝ü®h?0.003010094145494173 ù√Î?0.007586401160652037 _πóÌò@?0.0005064047538192832 tB¯H∫1?0.0002705028675864731 °\ìØpx&?0.00017143607673262166 .∂¶Ø“—6?0.0003481997843220755 |ªÌndò)?0.00019527650826086846 á§ÿç˛$?0.0001601741935895396 JÛ<.#€?0.00011389162278603346 	h°†©Ã?0.00011749062847013504 t<7rE∏P?0.0010204961953268728 ê1Ü∆Í˚>0.000026623813379941934 Ï∂bcA®?0.00005275201367403539 8ÖÌr3Ò>0.00001640412560388797 ·Å∆,?0.0000617023619904485 N;pìTì?0.00005450345855006218 πR=¶+C-?0.00022325427846205616 ¿YŒ∏é ?0.00012632375642480755 ˙á¥O©&?0.00017289255107592172 ß”w¬˛∆.?0.00023481235369584886 ¶ e˛?0.00005733236303001711 ¨è<z-0?0.00024685126685341607 –¿ö– ®4?0.0003152365830869754 ,‡ ˇ>˘>0.000024076536696803947  ÑæO•˙>0.00002541205775197646 pJY"PI ?0.00003106380272001753 Dø¥%›n?0.000033250926856685906 d@Œﬁ¥?0.00010186596018813134 ƒ»›õ¸$?0.00016011622079365438 ¥à≥œá?0.000054417616490957775 :ªInπ?0.00004291329040461427 g5'£Ñ ?0.00007168230585038114 ]'"d\?”>0.000004588962442162101 e¬7¿›1?0.00025957025374537805 ú»ë
 @⁄>0.000006224261747000061 $Uˇ5"?0.00013891071982133409 ˆ√àe•?0.000035564564033647926 ;6!±KË>0.000011585078971502245 √M <¯<3?0.00029355106744441086 èéÆüëÙ"?0.00014461782106166664 
->FﬁiÂ‹>0.000006889378230914419 ò…6´È?0.00010647875597306065 DlÀ˘°@?0.0004885950944201263 +7ñ·ŸBA?0.0005267681000746585 DÑé£rÕ9?0.00039371537018878885 'ÿòÖ«πA?0.0005409454562996838 Ñ…Y9V48?0.00036933045462386065 …	‰!Ú#S?0.0011682381223755303 “9äüâ˜?0.00007235314832085914 t±µVf∂.?0.00023431777240591101 π ÿ=KI?0.0007719089483156006 ô¡Ì:?0.00041085662182850733 ¡ÍÓzz◊:?0.0004095720313973921 6E°ö‰bJ?0.0008052459936697457 dFê?0.00008225848593425331 ‘Àp©Ú>0.000017185137576269095 0˙ ƒ˙1?0.0002743462109513488 yRN$~˜>0.00002198477365629662 k*»T.(?0.00018448624549168794 ‘ﬂ#{Ë ?0.000032249696673071516 ‰.Áû¶31?0.00026247804535438194 º2dÍ√Z?0.000052174667233816666 C√˙@?0.0004907818743281347 }ô’˙91?0.0002628552807432824 G.iKs„?0.00006823912813407842 û˝á:©¡5?0.0003319776683667566 ÿñ66ÛE?0.0006436049993012406 ¸∞±†çß:?0.00040671546657368413 ∞èOñ^L?0.00010413482011944922 {?a«VI:?0.0004010998594638976 ùå>‰â·P?0.0010303351018386205 5N^ÖÔ"?0.0001444673491134294 ñe.¿k?0.0033875369000812656 Kayes Koulikouro Sikasso Segou Mopti Tombouctou Gao Kidal Bamako ML01 ML02 ML03 ML04 ML05 ML06 ML07 ML08 ML09 Bamako Kayes Bafoulabe Diema Kenieba Kita Nioro Yelimane Koulikoro Banamba Dioila Kangaba Kati Kolokani Nara Kadiolo Yorosso Kolondieba Yanfolila Koutiala Bougouni Sikasso Baroueli Segou Bla San Niono Tominian Macina Mopti Bandiagara Bankass Youwarou Djenne Douentza Koro Tenenkou Tombouctou Dire Goundam Gourma-Rharous Niafunke Gao Ansongo Bourem Menaka Kidal Tin-Essako Abeibara Tessalit ML0901 ML0101 ML0102 ML0103 ML0104 ML0105 ML0106 ML0107 ML0201 ML0202 ML0203 ML0204 ML0205 ML0206 ML0207 ML0301 ML0302 ML0303 ML0304 ML0305 ML0306 ML0307 ML0401 ML0402 ML0403 ML0404 ML0405 ML0406 ML0407 ML0501 ML0502 ML0503 ML0504 ML0505 ML0506 ML0507 ML0508 ML0601 ML0602 ML0603 ML0604 ML0605 ML0701 ML0702 ML0703 ML0704 ML0801 ML0802 ML0803 ML0804 Tin Essako Bangassi Colimbine Diamou Djelebou Faleme Fegui Gory Gopela Goumera Guidimakan Keri Kaff Hawa Dembaya Karakoro Kayes Commune Kemene Tambo Khouloum Koniakary Konsiga Koussane Liberte Dembaya Logo Marena Diombougou Marintoumania Sadiola Sahel Same Diomboma Segala Sero Diamanou Somankidy Sony Tafacirga Bafoulabe Bamafele Diakon Diallan Diokeli Gounfan Kontela Koundian Mahina Niambia Oualia Sidibela Tomora Bema Diangounte Camara Dianguirde Diema Dieoura Dioumara Koussata Fassou Debe Fatao Gomitradougou Groumera Guedebine Lakamane Lambidou Madiga Sacko Sansankide Baye Dabia Dialafara Dombia Falea Faraba Guenegore Kassama Kenieba Kouroukoto Sagalo Sitakily Badia Bendougouba Benkadi Founia Boudofo Bougarybaya Dindanko Djidian Djougoun Gadougou 1 Gadougou 2 Guemoukouraba Kassaro Kita Commune Kita Nord Kita Ouest Kobri Kokofata Kotouba Koulou Kourounikoto Madina Makano Namala Guimba Niantanso Saboula Sebekoro Sefeto Nord Sefeto Ouest Senko Sirakoro Souransan Tomoto Tambaga Toukoto Baniere Kore Diabigue Diarra Diaye Coura Gavinane Gogui Guetema Kadiaba Kadiel Korera Kore Nioro Commune Nioro Tougoune Ranga Sandare Simbi Troungoumbe Yerere Youri Diafounou Diongaga Diafounou Gory Fanga Gory Guidime Kirane Kaniaga Kremis Marekaffo Soumpou Toya Tringa Dinandougou Doumba Koula Koulikoro Commune Meguetan Nyamina Sirakorola Tienfala Tougouni Banamba Boron Duguwolowula Kiban Madina Sacko Sebete Toubacoro Toukoroba Banco Benkadi Binko Degnekoro Diebe Diedougou Diouman Dolendougou Guegneka Jekafo Kaladougou Kemekafo Kerela Kilidougou Massigui Nangola N'dlondougou N'garadougou N'golobougou Niantjila Tenindougou Wacoro Zan Coulibaly Balan Bakama Kaniogo Karan Commune Maramandougou Minidian Narena Nouga Selefougou Baguineda Camp Bancoumana Bossofala Bougoula Daban Diago Dialakoroba Dialakorodji Dio Gare Dogodouman Dombila Doubabougou Kalabancoro Kalifabougou Kambila Kati Commune Kourouba Mande Moribabougou Mountougoula N'gabacoro N'gouraba Niagadina Nioumakana N'tjiba Ouelessebougou Safo Sanankoro Djitoumou Sanankoroba Sangarebougou Siby Sobra Tiakadougou Dialakor Tiele Yelekebougou Ben Kadi Didieni Guihoyo Kolokani Massantola Nonkon Nossombougou Ouolodo Sagabala Sebecoro 1 Tioribougou Allahina Dabo Dilly Dogofry Fallou Gueneibe Guire Koronga Nara Niamana Ouagadou Diou Dioumatene Fourou Kadiolo Kai Loulouni Misseni Nimbougou Zegoua Boura Karangana Kiffosso1 Koumba Koury Mahou Menamba 1 Ourikela Yorosso Fakola Farako Kadiana Kebila Kolondieba Kolosso Mena Nangalasso N'golodiana Tiongui Tousseguela Baya Bolo-Fouta Chantoula Djallon-Foula Djiguiya De Koloni Gouanan Gouandiaka Koussan Sankarani Sere Moussa Ani Samo Tagandougou Wassoulou Balle Yallankoro-Soloba Diouradougou Kafo Fagui Fakolo Gouadji Kao Goudie Sougouna Kafo Faboli Kapala Karagouana Malle Kolonigue Konina Koningue Konseguela Koromo Kouniana Koutiala Commune Logouana Miena M'pessoba Nafanga Nampe N'golonianasso N'goutjina N'tossoni Sincina Sinkolo Songo-Doubakore Songoua Sorobasso Tao Yognogo Zanfigue Zangasso Zanina Zebala Bladie-Tiemala Bougouni Commune Danou Debelin Defina Dogo Domba Faradiele Faragouaran Garalo Keleya Kokele Kola Koumantou Kouroulamini Meridiela Ouroun Sanso Sibirila Sido Tiemala-Baninomotie Wola Yinindougou Yiridougou Zantiebougou Blendio Danderesso Dembela Dialakoro Diomatene Dogoni Doumanaba Fama Farakala Finkolo Finkolo Ganadougou Gongasso Kabarasso Kaboila Kafoziela Kapolondougou Kignan Klela Kofan Kolokoba Koumankou Kouoro Kourouma Lobougoula Miniko Miria Missirikoro Missirikoro Sokouran Natien Niena Nongo-Souala N'tjikouna Pimperna Sanzana Sikasso Commune Tella Tiankadi Wateni Zanferebougou Zangaradougou Zaniena Baraoueli Boidie Dougoufie Gouendo Kalake Konobougou N'gara N'gassola Samine Sanando Somo Tamani Tesserla Baguindabougou Bellen Boussin Cinzana Diganibougou Dioro Diouna Dougabougou Farakou Massa Fatine Kamiandougou Katiena Konodimini Markala Massala N'koumandougou Pelengana Sakoiba Sama Foulala Sansanding Sebougou Segou Commune Sibila Soignebougou Souba Togou Beguene Bla Diaramana Diena Dougouolo Falo Fani Kazangasso Kemeni Korodougou Koulandougou Niala Niantaga Samabogo Somasso Tiemena Touna Yangasso Baramandougou Dah Diakourouna Dieli Djeguena Fion Kaniegue Karaba Kassorola Kava Moribila N'goa Niasso N'torosso Ouolon San Commune Siadougou Sourountouna Sy Tene Teneni Tourakolomba Waki Diabaly Kala Siguida Mariko Nampalari Niono Pogo Siribala Sirifila Boundy Sokolo Toridaga Yeredon Sanio Benena Diora Fangasso Lanfiala Mafoune Mandiakuy Ouan Sanekuy Timissa Tominian Yasso Boky Were Folomana Kokry Centre Kolongo Macina Matomo Monimpebougou Saloba Sana Souleye Tongue Bassirou Borondougou Dialloube Fatoma Konna Korombana Koubaye Kounari Mopti Commune Ouro Modi Ouroube Doude Sasalbe Sio Socoura Soye Bandiagara Commune Bara Sara Borko Dandoli Diamnati Dogani Bere Doucoumbo Dourou Kassa Kende Kendie Lowol Gueou Metoumou Ondougou Pelou Pignari Pignari Bana Sangha Segue Ire Soroly Timiri Wadouba Bankass Diallassagou Dimbal Habe Kani Bozon Koulogon Habe Lessagou Habe Ouonkoro Segue Sokoura Soubala Tori Bimbere Tama Deboye Dirma Dongo Farimake N'dodjiga Youwarou Dandougou Fakala Derrary Djenne Commune Fakala Femaye Kewa Madiama Nema Badenyakafo Niansanari Ouro Ali Pondori Togue Mourari Dallah Dangol Bore Debere Dianwely Djaptodji Douentza Commune Gandamia Haire Hombori Kerena Korarou Koubewel Koundia Mondoro Petaka Tedie Bamba Barapireli Bondo Diankabou Dinangourou Diougani Dougoutene 1 Dougoutene 2 Koporo Pen Koporokendie Na Koro Madougou Pel Maoude Yoro Youdiou Diafarabe Diaka Diondori Kareri Ouro Ardo Ouro Guire Sougoulbe Tenenkou Commune Togoro Kotia Toguere-Coumbe Alafia Ber Bourem Inaly Lafia Salam Tombouctou Arham Binga Bourem Sidi Amar Dangha Dire Garbakoira Haibongo Kirchamba Kondi Sareyamou Tienkour Tindirma Tinguereguif Adarmalane Alzounoub Bintagoungou Douekire Doukouria Essakane Gargando Goundam Commune Issa Bery Kaneye M'bouna Razelma Tele Tilemsi Tin Aicha Tonka Bambara Maoude Banicane Gossi Hamzakona Haribomo Inadiatafane Ouinerden Rharous Serere Banikane Narhawa Dianke Fittouga Koumaira Lere N'gorkou Souboundou Soumpi Anchawadi Gabero Gao Gounzoureye N'tillit Sony Aliber Ansongo Bara Bourra Ouattagouna Talataye Tessit Tin Hama Bourem Taboye Tarkint Temera Anderamboukane Inekar Menaka Tidermene Anefif Kidal Abeibara Boghassa Tinzawatene Adjelhoc Essouk Tessalit Timtaghene Commune I Commune II Commune III Commune IV Commune V Commune VI ML080201 ML010101 ML010102 ML010103 ML010104 ML010105 ML010106 ML010107 ML010108 ML010109 ML010110 ML010111 ML010112 ML010113 ML010114 ML010115 ML010116 ML010117 ML010118 ML010119 ML010120 ML010121 ML010122 ML010123 ML010124 ML010125 ML010126 ML010127 ML010128 ML010129 ML010201 ML010202 ML010203 ML010204 ML010205 ML010206 ML010207 ML010208 ML010209 ML010210 ML010211 ML010212 ML010213 ML010301 ML010302 ML010303 ML010304 ML010305 ML010306 ML010307 ML010308 ML010309 ML010310 ML010311 ML010312 ML010313 ML010314 ML010315 ML010401 ML010402 ML010403 ML010404 ML010405 ML010406 ML010407 ML010408 ML010409 ML010410 ML010411 ML010412 ML010501 ML010502 ML010503 ML010504 ML010505 ML010506 ML010507 ML010508 ML010509 ML010510 ML010511 ML010512 ML010513 ML010514 ML010515 ML010516 ML010517 ML010518 ML010519 ML010520 ML010521 ML010522 ML010523 ML010524 ML010525 ML010526 ML010527 ML010528 ML010529 ML010530 ML010531 ML010532 ML010533 ML010601 ML010602 ML010603 ML010604 ML010605 ML010606 ML010607 ML010608 ML010609 ML010610 ML010611 ML010612 ML010613 ML010614 ML010615 ML010616 ML010701 ML010702 ML010703 ML010704 ML010705 ML010706 ML010707 ML010708 ML010709 ML010710 ML010711 ML020101 ML020102 ML020103 ML020104 ML020105 ML020106 ML020107 ML020108 ML020109 ML020201 ML020202 ML020203 ML020204 ML020205 ML020206 ML020207 ML020208 ML020301 ML020302 ML020303 ML020304 ML020305 ML020306 ML020307 ML020308 ML020309 ML020310 ML020311 ML020312 ML020313 ML020314 ML020315 ML020316 ML020317 ML020318 ML020319 ML020320 ML020321 ML020322 ML020323 ML020401 ML020402 ML020403 ML020404 ML020405 ML020406 ML020407 ML020408 ML020409 ML020501 ML020502 ML020503 ML020504 ML020505 ML020506 ML020507 ML020508 ML020509 ML020510 ML020511 ML020512 ML020513 ML020514 ML020515 ML020516 ML020517 ML020518 ML020519 ML020520 ML020521 ML020522 ML020523 ML020524 ML020525 ML020526 ML020527 ML020528 ML020529 ML020530 ML020531 ML020532 ML020533 ML020534 ML020535 ML020536 ML020537 ML020601 ML020602 ML020603 ML020604 ML020605 ML020606 ML020607 ML020608 ML020609 ML020610 ML020611 ML020701 ML020702 ML020703 ML020704 ML020705 ML020706 ML020707 ML020708 ML020709 ML020710 ML020711 ML030101 ML030102 ML030103 ML030104 ML030105 ML030106 ML030107 ML030108 ML030109 ML030201 ML030202 ML030203 ML030204 ML030205 ML030206 ML030207 ML030208 ML030209 ML030301 ML030302 ML030303 ML030304 ML030305 ML030306 ML030307 ML030308 ML030309 ML030310 ML030311 ML030312 ML030401 ML030402 ML030403 ML030404 ML030405 ML030406 ML030407 ML030408 ML030409 ML030410 ML030411 ML030412 ML030413 ML030501 ML030502 ML030503 ML030504 ML030505 ML030506 ML030507 ML030508 ML030509 ML030510 ML030511 ML030512 ML030513 ML030514 ML030515 ML030516 ML030517 ML030518 ML030519 ML030520 ML030521 ML030522 ML030523 ML030524 ML030525 ML030526 ML030527 ML030528 ML030529 ML030530 ML030531 ML030532 ML030533 ML030534 ML030535 ML030601 ML030602 ML030603 ML030604 ML030605 ML030606 ML030607 ML030608 ML030609 ML030610 ML030611 ML030612 ML030613 ML030614 ML030615 ML030616 ML030617 ML030618 ML030619 ML030620 ML030621 ML030622 ML030623 ML030624 ML030625 ML030701 ML030702 ML030703 ML030704 ML030705 ML030706 ML030707 ML030708 ML030709 ML030710 ML030711 ML030712 ML030713 ML030714 ML030715 ML030716 ML030717 ML030718 ML030719 ML030720 ML030721 ML030722 ML030723 ML030724 ML030725 ML030726 ML030727 ML030728 ML030729 ML030730 ML030731 ML030732 ML030733 ML030734 ML030735 ML030736 ML030737 ML030738 ML030739 ML030740 ML030741 ML030742 ML030743 ML040101 ML040102 ML040103 ML040104 ML040105 ML040106 ML040107 ML040108 ML040109 ML040110 ML040111 ML040112 ML040113 ML040201 ML040202 ML040203 ML040204 ML040205 ML040206 ML040207 ML040208 ML040209 ML040210 ML040211 ML040212 ML040213 ML040214 ML040215 ML040216 ML040217 ML040218 ML040219 ML040220 ML040221 ML040222 ML040223 ML040224 ML040225 ML040226 ML040227 ML040228 ML040301 ML040302 ML040303 ML040304 ML040305 ML040306 ML040307 ML040308 ML040309 ML040310 ML040311 ML040312 ML040313 ML040314 ML040315 ML040316 ML040317 ML040318 ML040401 ML040402 ML040403 ML040404 ML040405 ML040406 ML040407 ML040408 ML040409 ML040410 ML040411 ML040412 ML040413 ML040414 ML040415 ML040416 ML040417 ML040418 ML040419 ML040420 ML040421 ML040422 ML040423 ML040424 ML040425 ML040501 ML040502 ML040503 ML040504 ML040505 ML040506 ML040507 ML040508 ML040509 ML040510 ML040511 ML040512 ML040601 ML040602 ML040603 ML040604 ML040605 ML040606 ML040607 ML040608 ML040609 ML040610 ML040611 ML040612 ML040701 ML040702 ML040703 ML040704 ML040705 ML040706 ML040707 ML040708 ML040709 ML040710 ML040711 ML050101 ML050102 ML050103 ML050104 ML050105 ML050106 ML050107 ML050108 ML050109 ML050110 ML050111 ML050112 ML050113 ML050114 ML050115 ML050201 ML050202 ML050203 ML050204 ML050205 ML050206 ML050207 ML050208 ML050209 ML050210 ML050211 ML050212 ML050213 ML050214 ML050215 ML050216 ML050217 ML050218 ML050219 ML050220 ML050221 ML050222 ML050301 ML050302 ML050303 ML050304 ML050305 ML050306 ML050307 ML050308 ML050309 ML050310 ML050311 ML050312 ML050401 ML050402 ML050403 ML050404 ML050405 ML050406 ML050407 ML050501 ML050502 ML050503 ML050504 ML050505 ML050506 ML050507 ML050508 ML050509 ML050510 ML050511 ML050512 ML050601 ML050602 ML050603 ML050604 ML050605 ML050606 ML050607 ML050608 ML050609 ML050610 ML050611 ML050612 ML050613 ML050614 ML050615 ML050701 ML050702 ML050703 ML050704 ML050705 ML050706 ML050707 ML050708 ML050709 ML050710 ML050711 ML050712 ML050713 ML050714 ML050715 ML050801 ML050802 ML050803 ML050804 ML050805 ML050806 ML050807 ML050808 ML050809 ML050810 ML060101 ML060102 ML060103 ML060104 ML060105 ML060106 ML060201 ML060202 ML060203 ML060204 ML060205 ML060206 ML060207 ML060208 ML060209 ML060210 ML060211 ML060212 ML060213 ML060301 ML060302 ML060303 ML060304 ML060305 ML060306 ML060307 ML060308 ML060309 ML060310 ML060311 ML060312 ML060313 ML060314 ML060315 ML060316 ML060401 ML060402 ML060403 ML060404 ML060405 ML060406 ML060407 ML060408 ML060409 ML060501 ML060502 ML060503 ML060504 ML060505 ML060506 ML060507 ML060508 ML070101 ML070102 ML070103 ML070104 ML070105 ML070106 ML070107 ML070201 ML070202 ML070203 ML070204 ML070205 ML070206 ML070207 ML070301 ML070302 ML070303 ML070304 ML070305 ML070401 ML070402 ML070403 ML070404 ML080101 ML080102 ML080301 ML080302 ML080303 ML080401 ML080402 ML080403 ML080404 ML090101 ML090102 ML090103 ML090104 ML090105 ML090106 ML090101001 ML090101112 ML090101223 ML090101334 ML090101445 ML090101556 ML090101667 ML090101778 ML090101889 ML090101901 ML090102001 ML090102091 ML090102181 ML090102271 ML090102361 ML090102451 ML090102541 ML090102631 ML090102721 ML090102811 ML090102901 ML090103001 ML090103056 ML090103111 ML090103166 ML090103221 ML090103276 ML090103331 ML090103386 ML090103441 ML090103496 ML090103551 ML090103606 ML090103661 ML090103716 ML090103771 ML090103826 ML090103881 ML090103936 ML090103951 ML090104001 ML090104223 ML090104334 ML090104445 ML090104556 ML090104667 ML090104889 ML090104951 ML090105001 ML090105100 ML090105199 ML090105397 ML090105496 ML090105595 ML090105694 ML090105793 ML090105892 ML090105951 ML090106001 ML090106100 ML090106199 ML090106298 ML090106397 ML090106496 ML090106595 ML090106694 ML090106793 ML090106892 ML090106901 ML090106902 ML090106903 Banconi Boulkassoumbougou Dj√©libougou Djoumanzana Nafadji Korofina Nord Korofina Sud Sikoroni Sotuba Babouillabougou Bagadadji Bakaribougou Bougouba Bozola Hippodrome M√©dina Coura Missira Niar√©la Quinzambougou T.S.F. Zone Industrielle Badialan1 Badialan2 Badialan3 Bamako Coura BAS Centre Commercial Dar Salam Drav√©la Base A Kodabougou Koulouba Niomyirambougou N'Tominkorobougou Ouolofobougou Ouolofobougou Bolibana Point G Sam√® Sogonafing Quartier du Fleuve Djicoroni Para Hamdallaye Kalabambougou Lafiabougou Lassa S√©b√©ninkoro Taliko Sibiribougou Baco Djicoroni Badalabougou Daoudabougou Kalaban Coura Quartier Mali Quartier Sema Sabalibougou Sema II Torokorobougou Garantiguibougo Banankabougou Dian√®gu√®la Faladj√® Magnambougou Missabougou Niamakoro S√©nou Sogoninko Sokorodji Yirimadjo Concession Rurales de Magnambougou Niamakoro 1621 Zone a√©roportuaire            @  à     Ä  Ã     ¿        T    @ ò    Ä ‹    ¿        d   	B ®   
-É à    ƒ à     à    F à    á à     » à    $	 à    (J Ã    ,ã Ã    0Ã Ã    4 Ã    8N Ã    <è Ã    @– Ã    D    HR    Lì    P‘    T    XV    \ó    `ÿ T    d T   !hZ T   "lõ T   #p‹ T   $t	 T   %x^	 T   &|ü	 ò   'Ä‡	 ò   (Ñ!
- ò   )àb
- ò   *å£
- ò   +ê‰
- ò   ,î% ò   -òf ò   .úß ‹   /†Ë ‹   0§) ‹   1®j ‹   2¨´ ‹   3∞Ï     4¥-     5∏n     6ºØ     7¿ d   8ƒ1d  9»r d   :Ã≥ d   ;√à   <à   =Cà   >Éà   ?√à   @à   AC	à  	 BÉ
+>FﬁiÂ‹>0.000006889378230914419 ò…6´È?0.00010647875597306065 DlÀ˘°@?0.0004885950944201263 +7ñ·ŸBA?0.0005267681000746585 DÑé£rÕ9?0.00039371537018878885 'ÿòÖ«πA?0.0005409454562996838 Ñ…Y9V48?0.00036933045462386065 …	‰!Ú#S?0.0011682381223755303 “9äüâ˜?0.00007235314832085914 t±µVf∂.?0.00023431777240591101 π ÿ=KI?0.0007719089483156006 ô¡Ì:?0.00041085662182850733 ¡ÍÓzz◊:?0.0004095720313973921 6E°ö‰bJ?0.0008052459936697457 dFê?0.00008225848593425331 ‘Àp©Ú>0.000017185137576269095 0˙ ƒ˙1?0.0002743462109513488 yRN$~˜>0.00002198477365629662 k*»T.(?0.00018448624549168794 ‘ﬂ#{Ë ?0.000032249696673071516 ‰.Áû¶31?0.00026247804535438194 º2dÍ√Z?0.000052174667233816666 C√˙@?0.0004907818743281347 }ô’˙91?0.0002628552807432824 G.iKs„?0.00006823912813407842 û˝á:©¡5?0.0003319776683667566 ÿñ66ÛE?0.0006436049993012406 ¸∞±†çß:?0.00040671546657368413 ∞èOñ^L?0.00010413482011944922 {?a«VI:?0.0004010998594638976 ùå>‰â·P?0.0010303351018386205 5N^ÖÔ"?0.0001444673491134294 ñe.¿k?0.0033875369000812656 MLI Kayes Koulikouro Sikasso Segou Mopti Tombouctou Gao Kidal Bamako ML01 ML02 ML03 ML04 ML05 ML06 ML07 ML08 ML09 MLI01 MLI02 MLI03 MLI04 MLI05 MLI06 MLI07 MLI08 MLI09 Bamako Kayes Bafoulabe Diema Kenieba Kita Nioro Yelimane Koulikoro Banamba Dioila Kangaba Kati Kolokani Nara Kadiolo Yorosso Kolondieba Yanfolila Koutiala Bougouni Sikasso Baroueli Segou Bla San Niono Tominian Macina Mopti Bandiagara Bankass Youwarou Djenne Douentza Koro Tenenkou Tombouctou Dire Goundam Gourma-Rharous Niafunke Gao Ansongo Bourem Menaka Kidal Tin-Essako Abeibara Tessalit ML0901 ML0101 ML0102 ML0103 ML0104 ML0105 ML0106 ML0107 ML0201 ML0202 ML0203 ML0204 ML0205 ML0206 ML0207 ML0301 ML0302 ML0303 ML0304 ML0305 ML0306 ML0307 ML0401 ML0402 ML0403 ML0404 ML0405 ML0406 ML0407 ML0501 ML0502 ML0503 ML0504 ML0505 ML0506 ML0507 ML0508 ML0601 ML0602 ML0603 ML0604 ML0605 ML0701 ML0702 ML0703 ML0704 ML0801 ML0802 ML0803 ML0804 MLI0901 MLI0101 MLI0102 MLI0103 MLI0104 MLI0105 MLI0106 MLI0107 MLI0201 MLI0202 MLI0203 MLI0204 MLI0205 MLI0206 MLI0207 MLI0301 MLI0302 MLI0303 MLI0304 MLI0305 MLI0306 MLI0307 MLI0401 MLI0402 MLI0403 MLI0404 MLI0405 MLI0406 MLI0407 MLI0501 MLI0502 MLI0503 MLI0504 MLI0505 MLI0506 MLI0507 MLI0508 MLI0601 MLI0602 MLI0603 MLI0604 MLI0605 MLI0701 MLI0702 MLI0703 MLI0704 MLI0801 MLI0802 MLI0803 MLI0804 Tin Essako Bangassi Colimbine Diamou Djelebou Faleme Fegui Gory Gopela Goumera Guidimakan Keri Kaff Hawa Dembaya Karakoro Kayes Commune Kemene Tambo Khouloum Koniakary Konsiga Koussane Liberte Dembaya Logo Marena Diombougou Marintoumania Sadiola Sahel Same Diomboma Segala Sero Diamanou Somankidy Sony Tafacirga Bafoulabe Bamafele Diakon Diallan Diokeli Gounfan Kontela Koundian Mahina Niambia Oualia Sidibela Tomora Bema Diangounte Camara Dianguirde Diema Dieoura Dioumara Koussata Fassou Debe Fatao Gomitradougou Groumera Guedebine Lakamane Lambidou Madiga Sacko Sansankide Baye Dabia Dialafara Dombia Falea Faraba Guenegore Kassama Kenieba Kouroukoto Sagalo Sitakily Badia Bendougouba Benkadi Founia Boudofo Bougarybaya Dindanko Djidian Djougoun Gadougou 1 Gadougou 2 Guemoukouraba Kassaro Kita Commune Kita Nord Kita Ouest Kobri Kokofata Kotouba Koulou Kourounikoto Madina Makano Namala Guimba Niantanso Saboula Sebekoro Sefeto Nord Sefeto Ouest Senko Sirakoro Souransan Tomoto Tambaga Toukoto Baniere Kore Diabigue Diarra Diaye Coura Gavinane Gogui Guetema Kadiaba Kadiel Korera Kore Nioro Commune Nioro Tougoune Ranga Sandare Simbi Troungoumbe Yerere Youri Diafounou Diongaga Diafounou Gory Fanga Gory Guidime Kirane Kaniaga Kremis Marekaffo Soumpou Toya Tringa Dinandougou Doumba Koula Koulikoro Commune Meguetan Nyamina Sirakorola Tienfala Tougouni Banamba Boron Duguwolowula Kiban Madina Sacko Sebete Toubacoro Toukoroba Banco Benkadi Binko Degnekoro Diebe Diedougou Diouman Dolendougou Guegneka Jekafo Kaladougou Kemekafo Kerela Kilidougou Massigui Nangola N'dlondougou N'garadougou N'golobougou Niantjila Tenindougou Wacoro Zan Coulibaly Balan Bakama Kaniogo Karan Commune Maramandougou Minidian Narena Nouga Selefougou Baguineda Camp Bancoumana Bossofala Bougoula Daban Diago Dialakoroba Dialakorodji Dio Gare Dogodouman Dombila Doubabougou Kalabancoro Kalifabougou Kambila Kati Commune Kourouba Mande Moribabougou Mountougoula N'gabacoro N'gouraba Niagadina Nioumakana N'tjiba Ouelessebougou Safo Sanankoro Djitoumou Sanankoroba Sangarebougou Siby Sobra Tiakadougou Dialakor Tiele Yelekebougou Ben Kadi Didieni Guihoyo Kolokani Massantola Nonkon Nossombougou Ouolodo Sagabala Sebecoro 1 Tioribougou Allahina Dabo Dilly Dogofry Fallou Gueneibe Guire Koronga Nara Niamana Ouagadou Diou Dioumatene Fourou Kadiolo Kai Loulouni Misseni Nimbougou Zegoua Boura Karangana Kiffosso1 Koumba Koury Mahou Menamba 1 Ourikela Yorosso Fakola Farako Kadiana Kebila Kolondieba Kolosso Mena Nangalasso N'golodiana Tiongui Tousseguela Baya Bolo-Fouta Chantoula Djallon-Foula Djiguiya De Koloni Gouanan Gouandiaka Koussan Sankarani Sere Moussa Ani Samo Tagandougou Wassoulou Balle Yallankoro-Soloba Diouradougou Kafo Fagui Fakolo Gouadji Kao Goudie Sougouna Kafo Faboli Kapala Karagouana Malle Kolonigue Konina Koningue Konseguela Koromo Kouniana Koutiala Commune Logouana Miena M'pessoba Nafanga Nampe N'golonianasso N'goutjina N'tossoni Sincina Sinkolo Songo-Doubakore Songoua Sorobasso Tao Yognogo Zanfigue Zangasso Zanina Zebala Bladie-Tiemala Bougouni Commune Danou Debelin Defina Dogo Domba Faradiele Faragouaran Garalo Keleya Kokele Kola Koumantou Kouroulamini Meridiela Ouroun Sanso Sibirila Sido Tiemala-Baninomotie Wola Yinindougou Yiridougou Zantiebougou Blendio Danderesso Dembela Dialakoro Diomatene Dogoni Doumanaba Fama Farakala Finkolo Finkolo Ganadougou Gongasso Kabarasso Kaboila Kafoziela Kapolondougou Kignan Klela Kofan Kolokoba Koumankou Kouoro Kourouma Lobougoula Miniko Miria Missirikoro Missirikoro Sokouran Natien Niena Nongo-Souala N'tjikouna Pimperna Sanzana Sikasso Commune Tella Tiankadi Wateni Zanferebougou Zangaradougou Zaniena Baraoueli Boidie Dougoufie Gouendo Kalake Konobougou N'gara N'gassola Samine Sanando Somo Tamani Tesserla Baguindabougou Bellen Boussin Cinzana Diganibougou Dioro Diouna Dougabougou Farakou Massa Fatine Kamiandougou Katiena Konodimini Markala Massala N'koumandougou Pelengana Sakoiba Sama Foulala Sansanding Sebougou Segou Commune Sibila Soignebougou Souba Togou Beguene Bla Diaramana Diena Dougouolo Falo Fani Kazangasso Kemeni Korodougou Koulandougou Niala Niantaga Samabogo Somasso Tiemena Touna Yangasso Baramandougou Dah Diakourouna Dieli Djeguena Fion Kaniegue Karaba Kassorola Kava Moribila N'goa Niasso N'torosso Ouolon San Commune Siadougou Sourountouna Sy Tene Teneni Tourakolomba Waki Diabaly Kala Siguida Mariko Nampalari Niono Pogo Siribala Sirifila Boundy Sokolo Toridaga Yeredon Sanio Benena Diora Fangasso Lanfiala Mafoune Mandiakuy Ouan Sanekuy Timissa Tominian Yasso Boky Were Folomana Kokry Centre Kolongo Macina Matomo Monimpebougou Saloba Sana Souleye Tongue Bassirou Borondougou Dialloube Fatoma Konna Korombana Koubaye Kounari Mopti Commune Ouro Modi Ouroube Doude Sasalbe Sio Socoura Soye Bandiagara Commune Bara Sara Borko Dandoli Diamnati Dogani Bere Doucoumbo Dourou Kassa Kende Kendie Lowol Gueou Metoumou Ondougou Pelou Pignari Pignari Bana Sangha Segue Ire Soroly Timiri Wadouba Bankass Diallassagou Dimbal Habe Kani Bozon Koulogon Habe Lessagou Habe Ouonkoro Segue Sokoura Soubala Tori Bimbere Tama Deboye Dirma Dongo Farimake N'dodjiga Youwarou Dandougou Fakala Derrary Djenne Commune Fakala Femaye Kewa Madiama Nema Badenyakafo Niansanari Ouro Ali Pondori Togue Mourari Dallah Dangol Bore Debere Dianwely Djaptodji Douentza Commune Gandamia Haire Hombori Kerena Korarou Koubewel Koundia Mondoro Petaka Tedie Bamba Barapireli Bondo Diankabou Dinangourou Diougani Dougoutene 1 Dougoutene 2 Koporo Pen Koporokendie Na Koro Madougou Pel Maoude Yoro Youdiou Diafarabe Diaka Diondori Kareri Ouro Ardo Ouro Guire Sougoulbe Tenenkou Commune Togoro Kotia Toguere-Coumbe Alafia Ber Bourem Inaly Lafia Salam Tombouctou Arham Binga Bourem Sidi Amar Dangha Dire Garbakoira Haibongo Kirchamba Kondi Sareyamou Tienkour Tindirma Tinguereguif Adarmalane Alzounoub Bintagoungou Douekire Doukouria Essakane Gargando Goundam Commune Issa Bery Kaneye M'bouna Razelma Tele Tilemsi Tin Aicha Tonka Bambara Maoude Banicane Gossi Hamzakona Haribomo Inadiatafane Ouinerden Rharous Serere Banikane Narhawa Dianke Fittouga Koumaira Lere N'gorkou Souboundou Soumpi Anchawadi Gabero Gao Gounzoureye N'tillit Sony Aliber Ansongo Bara Bourra Ouattagouna Talataye Tessit Tin Hama Bourem Taboye Tarkint Temera Anderamboukane Inekar Menaka Tidermene Anefif Kidal Abeibara Boghassa Tinzawatene Adjelhoc Essouk Tessalit Timtaghene Commune I Commune II Commune III Commune IV Commune V Commune VI ML080201 ML010101 ML010102 ML010103 ML010104 ML010105 ML010106 ML010107 ML010108 ML010109 ML010110 ML010111 ML010112 ML010113 ML010114 ML010115 ML010116 ML010117 ML010118 ML010119 ML010120 ML010121 ML010122 ML010123 ML010124 ML010125 ML010126 ML010127 ML010128 ML010129 ML010201 ML010202 ML010203 ML010204 ML010205 ML010206 ML010207 ML010208 ML010209 ML010210 ML010211 ML010212 ML010213 ML010301 ML010302 ML010303 ML010304 ML010305 ML010306 ML010307 ML010308 ML010309 ML010310 ML010311 ML010312 ML010313 ML010314 ML010315 ML010401 ML010402 ML010403 ML010404 ML010405 ML010406 ML010407 ML010408 ML010409 ML010410 ML010411 ML010412 ML010501 ML010502 ML010503 ML010504 ML010505 ML010506 ML010507 ML010508 ML010509 ML010510 ML010511 ML010512 ML010513 ML010514 ML010515 ML010516 ML010517 ML010518 ML010519 ML010520 ML010521 ML010522 ML010523 ML010524 ML010525 ML010526 ML010527 ML010528 ML010529 ML010530 ML010531 ML010532 ML010533 ML010601 ML010602 ML010603 ML010604 ML010605 ML010606 ML010607 ML010608 ML010609 ML010610 ML010611 ML010612 ML010613 ML010614 ML010615 ML010616 ML010701 ML010702 ML010703 ML010704 ML010705 ML010706 ML010707 ML010708 ML010709 ML010710 ML010711 ML020101 ML020102 ML020103 ML020104 ML020105 ML020106 ML020107 ML020108 ML020109 ML020201 ML020202 ML020203 ML020204 ML020205 ML020206 ML020207 ML020208 ML020301 ML020302 ML020303 ML020304 ML020305 ML020306 ML020307 ML020308 ML020309 ML020310 ML020311 ML020312 ML020313 ML020314 ML020315 ML020316 ML020317 ML020318 ML020319 ML020320 ML020321 ML020322 ML020323 ML020401 ML020402 ML020403 ML020404 ML020405 ML020406 ML020407 ML020408 ML020409 ML020501 ML020502 ML020503 ML020504 ML020505 ML020506 ML020507 ML020508 ML020509 ML020510 ML020511 ML020512 ML020513 ML020514 ML020515 ML020516 ML020517 ML020518 ML020519 ML020520 ML020521 ML020522 ML020523 ML020524 ML020525 ML020526 ML020527 ML020528 ML020529 ML020530 ML020531 ML020532 ML020533 ML020534 ML020535 ML020536 ML020537 ML020601 ML020602 ML020603 ML020604 ML020605 ML020606 ML020607 ML020608 ML020609 ML020610 ML020611 ML020701 ML020702 ML020703 ML020704 ML020705 ML020706 ML020707 ML020708 ML020709 ML020710 ML020711 ML030101 ML030102 ML030103 ML030104 ML030105 ML030106 ML030107 ML030108 ML030109 ML030201 ML030202 ML030203 ML030204 ML030205 ML030206 ML030207 ML030208 ML030209 ML030301 ML030302 ML030303 ML030304 ML030305 ML030306 ML030307 ML030308 ML030309 ML030310 ML030311 ML030312 ML030401 ML030402 ML030403 ML030404 ML030405 ML030406 ML030407 ML030408 ML030409 ML030410 ML030411 ML030412 ML030413 ML030501 ML030502 ML030503 ML030504 ML030505 ML030506 ML030507 ML030508 ML030509 ML030510 ML030511 ML030512 ML030513 ML030514 ML030515 ML030516 ML030517 ML030518 ML030519 ML030520 ML030521 ML030522 ML030523 ML030524 ML030525 ML030526 ML030527 ML030528 ML030529 ML030530 ML030531 ML030532 ML030533 ML030534 ML030535 ML030601 ML030602 ML030603 ML030604 ML030605 ML030606 ML030607 ML030608 ML030609 ML030610 ML030611 ML030612 ML030613 ML030614 ML030615 ML030616 ML030617 ML030618 ML030619 ML030620 ML030621 ML030622 ML030623 ML030624 ML030625 ML030701 ML030702 ML030703 ML030704 ML030705 ML030706 ML030707 ML030708 ML030709 ML030710 ML030711 ML030712 ML030713 ML030714 ML030715 ML030716 ML030717 ML030718 ML030719 ML030720 ML030721 ML030722 ML030723 ML030724 ML030725 ML030726 ML030727 ML030728 ML030729 ML030730 ML030731 ML030732 ML030733 ML030734 ML030735 ML030736 ML030737 ML030738 ML030739 ML030740 ML030741 ML030742 ML030743 ML040101 ML040102 ML040103 ML040104 ML040105 ML040106 ML040107 ML040108 ML040109 ML040110 ML040111 ML040112 ML040113 ML040201 ML040202 ML040203 ML040204 ML040205 ML040206 ML040207 ML040208 ML040209 ML040210 ML040211 ML040212 ML040213 ML040214 ML040215 ML040216 ML040217 ML040218 ML040219 ML040220 ML040221 ML040222 ML040223 ML040224 ML040225 ML040226 ML040227 ML040228 ML040301 ML040302 ML040303 ML040304 ML040305 ML040306 ML040307 ML040308 ML040309 ML040310 ML040311 ML040312 ML040313 ML040314 ML040315 ML040316 ML040317 ML040318 ML040401 ML040402 ML040403 ML040404 ML040405 ML040406 ML040407 ML040408 ML040409 ML040410 ML040411 ML040412 ML040413 ML040414 ML040415 ML040416 ML040417 ML040418 ML040419 ML040420 ML040421 ML040422 ML040423 ML040424 ML040425 ML040501 ML040502 ML040503 ML040504 ML040505 ML040506 ML040507 ML040508 ML040509 ML040510 ML040511 ML040512 ML040601 ML040602 ML040603 ML040604 ML040605 ML040606 ML040607 ML040608 ML040609 ML040610 ML040611 ML040612 ML040701 ML040702 ML040703 ML040704 ML040705 ML040706 ML040707 ML040708 ML040709 ML040710 ML040711 ML050101 ML050102 ML050103 ML050104 ML050105 ML050106 ML050107 ML050108 ML050109 ML050110 ML050111 ML050112 ML050113 ML050114 ML050115 ML050201 ML050202 ML050203 ML050204 ML050205 ML050206 ML050207 ML050208 ML050209 ML050210 ML050211 ML050212 ML050213 ML050214 ML050215 ML050216 ML050217 ML050218 ML050219 ML050220 ML050221 ML050222 ML050301 ML050302 ML050303 ML050304 ML050305 ML050306 ML050307 ML050308 ML050309 ML050310 ML050311 ML050312 ML050401 ML050402 ML050403 ML050404 ML050405 ML050406 ML050407 ML050501 ML050502 ML050503 ML050504 ML050505 ML050506 ML050507 ML050508 ML050509 ML050510 ML050511 ML050512 ML050601 ML050602 ML050603 ML050604 ML050605 ML050606 ML050607 ML050608 ML050609 ML050610 ML050611 ML050612 ML050613 ML050614 ML050615 ML050701 ML050702 ML050703 ML050704 ML050705 ML050706 ML050707 ML050708 ML050709 ML050710 ML050711 ML050712 ML050713 ML050714 ML050715 ML050801 ML050802 ML050803 ML050804 ML050805 ML050806 ML050807 ML050808 ML050809 ML050810 ML060101 ML060102 ML060103 ML060104 ML060105 ML060106 ML060201 ML060202 ML060203 ML060204 ML060205 ML060206 ML060207 ML060208 ML060209 ML060210 ML060211 ML060212 ML060213 ML060301 ML060302 ML060303 ML060304 ML060305 ML060306 ML060307 ML060308 ML060309 ML060310 ML060311 ML060312 ML060313 ML060314 ML060315 ML060316 ML060401 ML060402 ML060403 ML060404 ML060405 ML060406 ML060407 ML060408 ML060409 ML060501 ML060502 ML060503 ML060504 ML060505 ML060506 ML060507 ML060508 ML070101 ML070102 ML070103 ML070104 ML070105 ML070106 ML070107 ML070201 ML070202 ML070203 ML070204 ML070205 ML070206 ML070207 ML070301 ML070302 ML070303 ML070304 ML070305 ML070401 ML070402 ML070403 ML070404 ML080101 ML080102 ML080301 ML080302 ML080303 ML080401 ML080402 ML080403 ML080404 ML090101 ML090102 ML090103 ML090104 ML090105 ML090106 MLI080201 MLI010101 MLI010102 MLI010103 MLI010104 MLI010105 MLI010106 MLI010107 MLI010108 MLI010109 MLI010110 MLI010111 MLI010112 MLI010113 MLI010114 MLI010115 MLI010116 MLI010117 MLI010118 MLI010119 MLI010120 MLI010121 MLI010122 MLI010123 MLI010124 MLI010125 MLI010126 MLI010127 MLI010128 MLI010129 MLI010201 MLI010202 MLI010203 MLI010204 MLI010205 MLI010206 MLI010207 MLI010208 MLI010209 MLI010210 MLI010211 MLI010212 MLI010213 MLI010301 MLI010302 MLI010303 MLI010304 MLI010305 MLI010306 MLI010307 MLI010308 MLI010309 MLI010310 MLI010311 MLI010312 MLI010313 MLI010314 MLI010315 MLI010401 MLI010402 MLI010403 MLI010404 MLI010405 MLI010406 MLI010407 MLI010408 MLI010409 MLI010410 MLI010411 MLI010412 MLI010501 MLI010502 MLI010503 MLI010504 MLI010505 MLI010506 MLI010507 MLI010508 MLI010509 MLI010510 MLI010511 MLI010512 MLI010513 MLI010514 MLI010515 MLI010516 MLI010517 MLI010518 MLI010519 MLI010520 MLI010521 MLI010522 MLI010523 MLI010524 MLI010525 MLI010526 MLI010527 MLI010528 MLI010529 MLI010530 MLI010531 MLI010532 MLI010533 MLI010601 MLI010602 MLI010603 MLI010604 MLI010605 MLI010606 MLI010607 MLI010608 MLI010609 MLI010610 MLI010611 MLI010612 MLI010613 MLI010614 MLI010615 MLI010616 MLI010701 MLI010702 MLI010703 MLI010704 MLI010705 MLI010706 MLI010707 MLI010708 MLI010709 MLI010710 MLI010711 MLI020101 MLI020102 MLI020103 MLI020104 MLI020105 MLI020106 MLI020107 MLI020108 MLI020109 MLI020201 MLI020202 MLI020203 MLI020204 MLI020205 MLI020206 MLI020207 MLI020208 MLI020301 MLI020302 MLI020303 MLI020304 MLI020305 MLI020306 MLI020307 MLI020308 MLI020309 MLI020310 MLI020311 MLI020312 MLI020313 MLI020314 MLI020315 MLI020316 MLI020317 MLI020318 MLI020319 MLI020320 MLI020321 MLI020322 MLI020323 MLI020401 MLI020402 MLI020403 MLI020404 MLI020405 MLI020406 MLI020407 MLI020408 MLI020409 MLI020501 MLI020502 MLI020503 MLI020504 MLI020505 MLI020506 MLI020507 MLI020508 MLI020509 MLI020510 MLI020511 MLI020512 MLI020513 MLI020514 MLI020515 MLI020516 MLI020517 MLI020518 MLI020519 MLI020520 MLI020521 MLI020522 MLI020523 MLI020524 MLI020525 MLI020526 MLI020527 MLI020528 MLI020529 MLI020530 MLI020531 MLI020532 MLI020533 MLI020534 MLI020535 MLI020536 MLI020537 MLI020601 MLI020602 MLI020603 MLI020604 MLI020605 MLI020606 MLI020607 MLI020608 MLI020609 MLI020610 MLI020611 MLI020701 MLI020702 MLI020703 MLI020704 MLI020705 MLI020706 MLI020707 MLI020708 MLI020709 MLI020710 MLI020711 MLI030101 MLI030102 MLI030103 MLI030104 MLI030105 MLI030106 MLI030107 MLI030108 MLI030109 MLI030201 MLI030202 MLI030203 MLI030204 MLI030205 MLI030206 MLI030207 MLI030208 MLI030209 MLI030301 MLI030302 MLI030303 MLI030304 MLI030305 MLI030306 MLI030307 MLI030308 MLI030309 MLI030310 MLI030311 MLI030312 MLI030401 MLI030402 MLI030403 MLI030404 MLI030405 MLI030406 MLI030407 MLI030408 MLI030409 MLI030410 MLI030411 MLI030412 MLI030413 MLI030501 MLI030502 MLI030503 MLI030504 MLI030505 MLI030506 MLI030507 MLI030508 MLI030509 MLI030510 MLI030511 MLI030512 MLI030513 MLI030514 MLI030515 MLI030516 MLI030517 MLI030518 MLI030519 MLI030520 MLI030521 MLI030522 MLI030523 MLI030524 MLI030525 MLI030526 MLI030527 MLI030528 MLI030529 MLI030530 MLI030531 MLI030532 MLI030533 MLI030534 MLI030535 MLI030601 MLI030602 MLI030603 MLI030604 MLI030605 MLI030606 MLI030607 MLI030608 MLI030609 MLI030610 MLI030611 MLI030612 MLI030613 MLI030614 MLI030615 MLI030616 MLI030617 MLI030618 MLI030619 MLI030620 MLI030621 MLI030622 MLI030623 MLI030624 MLI030625 MLI030701 MLI030702 MLI030703 MLI030704 MLI030705 MLI030706 MLI030707 MLI030708 MLI030709 MLI030710 MLI030711 MLI030712 MLI030713 MLI030714 MLI030715 MLI030716 MLI030717 MLI030718 MLI030719 MLI030720 MLI030721 MLI030722 MLI030723 MLI030724 MLI030725 MLI030726 MLI030727 MLI030728 MLI030729 MLI030730 MLI030731 MLI030732 MLI030733 MLI030734 MLI030735 MLI030736 MLI030737 MLI030738 MLI030739 MLI030740 MLI030741 MLI030742 MLI030743 MLI040101 MLI040102 MLI040103 MLI040104 MLI040105 MLI040106 MLI040107 MLI040108 MLI040109 MLI040110 MLI040111 MLI040112 MLI040113 MLI040201 MLI040202 MLI040203 MLI040204 MLI040205 MLI040206 MLI040207 MLI040208 MLI040209 MLI040210 MLI040211 MLI040212 MLI040213 MLI040214 MLI040215 MLI040216 MLI040217 MLI040218 MLI040219 MLI040220 MLI040221 MLI040222 MLI040223 MLI040224 MLI040225 MLI040226 MLI040227 MLI040228 MLI040301 MLI040302 MLI040303 MLI040304 MLI040305 MLI040306 MLI040307 MLI040308 MLI040309 MLI040310 MLI040311 MLI040312 MLI040313 MLI040314 MLI040315 MLI040316 MLI040317 MLI040318 MLI040401 MLI040402 MLI040403 MLI040404 MLI040405 MLI040406 MLI040407 MLI040408 MLI040409 MLI040410 MLI040411 MLI040412 MLI040413 MLI040414 MLI040415 MLI040416 MLI040417 MLI040418 MLI040419 MLI040420 MLI040421 MLI040422 MLI040423 MLI040424 MLI040425 MLI040501 MLI040502 MLI040503 MLI040504 MLI040505 MLI040506 MLI040507 MLI040508 MLI040509 MLI040510 MLI040511 MLI040512 MLI040601 MLI040602 MLI040603 MLI040604 MLI040605 MLI040606 MLI040607 MLI040608 MLI040609 MLI040610 MLI040611 MLI040612 MLI040701 MLI040702 MLI040703 MLI040704 MLI040705 MLI040706 MLI040707 MLI040708 MLI040709 MLI040710 MLI040711 MLI050101 MLI050102 MLI050103 MLI050104 MLI050105 MLI050106 MLI050107 MLI050108 MLI050109 MLI050110 MLI050111 MLI050112 MLI050113 MLI050114 MLI050115 MLI050201 MLI050202 MLI050203 MLI050204 MLI050205 MLI050206 MLI050207 MLI050208 MLI050209 MLI050210 MLI050211 MLI050212 MLI050213 MLI050214 MLI050215 MLI050216 MLI050217 MLI050218 MLI050219 MLI050220 MLI050221 MLI050222 MLI050301 MLI050302 MLI050303 MLI050304 MLI050305 MLI050306 MLI050307 MLI050308 MLI050309 MLI050310 MLI050311 MLI050312 MLI050401 MLI050402 MLI050403 MLI050404 MLI050405 MLI050406 MLI050407 MLI050501 MLI050502 MLI050503 MLI050504 MLI050505 MLI050506 MLI050507 MLI050508 MLI050509 MLI050510 MLI050511 MLI050512 MLI050601 MLI050602 MLI050603 MLI050604 MLI050605 MLI050606 MLI050607 MLI050608 MLI050609 MLI050610 MLI050611 MLI050612 MLI050613 MLI050614 MLI050615 MLI050701 MLI050702 MLI050703 MLI050704 MLI050705 MLI050706 MLI050707 MLI050708 MLI050709 MLI050710 MLI050711 MLI050712 MLI050713 MLI050714 MLI050715 MLI050801 MLI050802 MLI050803 MLI050804 MLI050805 MLI050806 MLI050807 MLI050808 MLI050809 MLI050810 MLI060101 MLI060102 MLI060103 MLI060104 MLI060105 MLI060106 MLI060201 MLI060202 MLI060203 MLI060204 MLI060205 MLI060206 MLI060207 MLI060208 MLI060209 MLI060210 MLI060211 MLI060212 MLI060213 MLI060301 MLI060302 MLI060303 MLI060304 MLI060305 MLI060306 MLI060307 MLI060308 MLI060309 MLI060310 MLI060311 MLI060312 MLI060313 MLI060314 MLI060315 MLI060316 MLI060401 MLI060402 MLI060403 MLI060404 MLI060405 MLI060406 MLI060407 MLI060408 MLI060409 MLI060501 MLI060502 MLI060503 MLI060504 MLI060505 MLI060506 MLI060507 MLI060508 MLI070101 MLI070102 MLI070103 MLI070104 MLI070105 MLI070106 MLI070107 MLI070201 MLI070202 MLI070203 MLI070204 MLI070205 MLI070206 MLI070207 MLI070301 MLI070302 MLI070303 MLI070304 MLI070305 MLI070401 MLI070402 MLI070403 MLI070404 MLI080101 MLI080102 MLI080301 MLI080302 MLI080303 MLI080401 MLI080402 MLI080403 MLI080404 MLI090101 MLI090102 MLI090103 MLI090104 MLI090105 MLI090106 ML090101001 ML090101112 ML090101223 ML090101334 ML090101445 ML090101556 ML090101667 ML090101778 ML090101889 ML090101901 ML090102001 ML090102091 ML090102181 ML090102271 ML090102361 ML090102451 ML090102541 ML090102631 ML090102721 ML090102811 ML090102901 ML090103001 ML090103056 ML090103111 ML090103166 ML090103221 ML090103276 ML090103331 ML090103386 ML090103441 ML090103496 ML090103551 ML090103606 ML090103661 ML090103716 ML090103771 ML090103826 ML090103881 ML090103936 ML090103951 ML090104001 ML090104223 ML090104334 ML090104445 ML090104556 ML090104667 ML090104889 ML090104951 ML090105001 ML090105100 ML090105199 ML090105397 ML090105496 ML090105595 ML090105694 ML090105793 ML090105892 ML090105951 ML090106001 ML090106100 ML090106199 ML090106298 ML090106397 ML090106496 ML090106595 ML090106694 ML090106793 ML090106892 ML090106901 ML090106902 ML090106903 MLI090101001 MLI090101112 MLI090101223 MLI090101334 MLI090101445 MLI090101556 MLI090101667 MLI090101778 MLI090101889 MLI090101901 MLI090102001 MLI090102091 MLI090102181 MLI090102271 MLI090102361 MLI090102451 MLI090102541 MLI090102631 MLI090102721 MLI090102811 MLI090102901 MLI090103001 MLI090103056 MLI090103111 MLI090103166 MLI090103221 MLI090103276 MLI090103331 MLI090103386 MLI090103441 MLI090103496 MLI090103551 MLI090103606 MLI090103661 MLI090103716 MLI090103771 MLI090103826 MLI090103881 MLI090103936 MLI090103951 MLI090104001 MLI090104223 MLI090104334 MLI090104445 MLI090104556 MLI090104667 MLI090104889 MLI090104951 MLI090105001 MLI090105100 MLI090105199 MLI090105397 MLI090105496 MLI090105595 MLI090105694 MLI090105793 MLI090105892 MLI090105951 MLI090106001 MLI090106100 MLI090106199 MLI090106298 MLI090106397 MLI090106496 MLI090106595 MLI090106694 MLI090106793 MLI090106892 MLI090106901 MLI090106902 MLI090106903 Banconi Boulkassoumbougou Dj√©libougou Djoumanzana Nafadji Korofina Nord Korofina Sud Sikoroni Sotuba Babouillabougou Bagadadji Bakaribougou Bougouba Bozola Hippodrome M√©dina Coura Missira Niar√©la Quinzambougou T.S.F. Zone Industrielle Badialan1 Badialan2 Badialan3 Bamako Coura BAS Centre Commercial Dar Salam Drav√©la Base A Kodabougou Koulouba Niomyirambougou N'Tominkorobougou Ouolofobougou Ouolofobougou Bolibana Point G Sam√® Sogonafing Quartier du Fleuve Djicoroni Para Hamdallaye Kalabambougou Lafiabougou Lassa S√©b√©ninkoro Taliko Sibiribougou Baco Djicoroni Badalabougou Daoudabougou Kalaban Coura Quartier Mali Quartier Sema Sabalibougou Sema II Torokorobougou Garantiguibougo Banankabougou Dian√®gu√®la Faladj√® Magnambougou Missabougou Niamakoro S√©nou Sogoninko Sokorodji Yirimadjo Concession Rurales de Magnambougou Niamakoro 1621 Zone a√©roportuaire               @  à       Ä  Ã       ¿          T     
+ @ ò      Ä ‹      ¿          d     	B ®    
+É à     ƒ à       à     (F à     0á à     8 » à     @$	 à     H(J Ã     P,ã Ã     X0Ã Ã     `4 Ã     h8N Ã     p<è Ã     x@– Ã     ÄD     àHR     êLì     òP‘     †T     ®XV     ∞\ó     ∏`ÿ T    ¿
+ d T    »
+!hZ T    –
+"lõ T    ÿ
+#p‹ T    ‡
+$t	 T    Ë
+%x^	 T    
+&|ü	 ò    ¯'Ä‡	 ò     (Ñ!
+ ò    )àb
+ ò    *å£
+ ò    +ê‰
+ ò     ,î% ò    (-òf ò    0.úß ‹    8/†Ë ‹    @0§) ‹    H1®j ‹    P2¨´ ‹    X3∞Ï      `4¥-      h5∏n      p6ºØ      x7¿ d    Ä8ƒ1d  à9»r d    ê:Ã≥ d    ò;√à   <à   =Cà   >Éà   ?√à   @à    AC	à  	$ BÉ
 à  
- C√à   Dà   ECà   FÉà   G√à   Hà   ICà   JÉà   K√à   Là   MCà   NÉà   O√à   Pà   QCà   RÉà   S√à   Tà   UCà   VÉà   W√à   X à    YD!à  ! ZÑ"à  " [ƒ#à  # \$à  $ ]D%à  % ^Ñ&à  & _ƒ'à  ' `(à  ( aD)à  ) bÑ*à  * cƒ+à  + d,à  , eE-à  - fÖ.à  . g≈/à  / h0à  0 iE1à  1 jÖ2à  2 k≈3à  3 l4à  4 mE5à  5 nÖ6à  6 o≈7à  7 p8à  8 qE9à  9 rÖ:à  : s≈;à  ; t<à  < uF=à  = vÜ>à  > w∆?à  ? x@à  @ yFAà  A zÜBà  B {∆Cà  C |Dà  D }FEà  E ~ÜFà  F ∆Gà  G Ä Hà  H ÅG Ià  I Çá Jà  J É« Kà  K Ñ!Là  L ÖG!Mà  M Üá!Nà  N á«!Oà  O à"Pà  P âG"Qà  Q äá"Rà  R ã«"Sà  S å#Tà  T çG#Uà  U éá#Và  V è«#Wà  W ê$Xà  X ëG$Yà  Y íá$Zà  Z ì«$[à  [ î%\à  \ ïG%]à  ] ñá%^à  ^ ó«%_à  _ ò&`à  ` ôG&aà  a öá&bà  b õ«&cà  c ú'dà  d ùG'eà  e ûá'fà  f ü«'gà  g †(hà  h ° H(ià  i ¢ à(jà  j £ »(kà  k § )là  l • H)mà  m ¶ à)nà  n ß »)oà  o ® *pà  p © H*qà  q ™ à*rà  r ´ »*sà  s ¨ +tà  t ≠ H+uà  u Æ à+và  v Ø »+wà  w ∞ ,xà  x ±$I,yà  y ≤$â,zà  z ≥$…,{à  { ¥$	-|à  | µ$I-}à  } ∂$â-~à  ~ ∑$…-à   ∏$	.Äà  Ä π$I.Åà  Å ∫$â.Çà  Ç ª$….Éà  É º(
-/ÑÃ  Ñ Ω(J/ÖÃ  Ö æ(ä/ÜÃ  Ü ø( /áÃ  á ¿(
-0àÃ  à ¡(J0âÃ  â ¬(ä0äÃ  ä √( 0ãÃ  ã ƒ(
-1åÃ  å ≈,K1çÃ  ç ∆,ã1éÃ  é «,À1èÃ  è »,2êÃ  ê …,K2ëÃ  ë  ,ã2íÃ  í À,À2ìÃ  ì Ã,3îÃ  î Õ0L3ïÃ  ï Œ0å3ñÃ  ñ œ0Ã3óÃ  ó –04òÃ  ò —0L4ôÃ  ô “0å4öÃ  ö ”0Ã4õÃ  õ ‘05úÃ  ú ’0L5ùÃ  ù ÷0å5ûÃ  û ◊0Ã5üÃ  ü ÿ06†Ã  † Ÿ0L6°Ã  ° ⁄0å6¢Ã  ¢ €0Ã6£Ã  £ ‹07§Ã  § ›0L7•Ã  • ﬁ0å7¶Ã  ¶ ﬂ0Ã7ßÃ  ß ‡08®Ã  ® ·0L8©Ã  © ‚0å8™Ã  ™ „0Ã8´Ã  ´ ‰49¨Ã  ¨ Â4M9ñÃ  ≠ Ê4ç9≠Ã  Æ Á4Õ9ÆÃ  Ø Ë4:ØÃ  ∞ È4M:∞Ã  ± Í4ç:±Ã  ≤ Î4Õ:≤Ã  ≥ Ï4;≥Ã  ¥ Ì8N;¥Ã  µ Ó8é;µÃ  ∂ Ô8Œ;∂Ã  ∑ 8<∑Ã  ∏ Ò8N<∏Ã  π Ú8é<πÃ  ∫ Û8Œ<∫Ã  ª Ù8=ªÃ  º ı8N=öÃ  Ω ˆ8é=ºÃ  æ ˜8Œ=ΩÃ  ø ¯8>æÃ  ¿ ˘8N>øÃ  ¡ ˙8é>AÃ  ¬ ˚8Œ>¿Ã  √ ¸8?¡Ã  ƒ ˝8N?¬Ã  ≈ ˛8é?√Ã  ∆ ˇ8Œ?ƒÃ  «  9@≈Ã  » 9N@∆Ã  … 9é@«Ã    9Œ@»Ã  À 9A…Ã  Ã 9NA Ã  Õ 9éAÀÃ  Œ 9ŒAÃÃ  œ 9BÕÃ  – 	9NBŒÃ  — 
-9éBœÃ  “ 9ŒB–Ã  ” 9C—Ã  ‘ 9NC“Ã  ’ 9éC”Ã  ÷ 9ŒC‘Ã  ◊ 9D’Ã  ÿ 9ND÷Ã  Ÿ =èD◊Ã  ⁄ =œDÿÃ  € =EŸÃ  ‹ =OE⁄Ã  › =èE€Ã  ﬁ =œE‹Ã  ﬂ =F›Ã  ‡ =OFﬁÃ  · =èFﬂÃ  ‚ =œF‡Ã  „ =G·Ã  ‰ APG‚Ã  Â AêG„Ã  Ê A–G‰Ã  Á  AHÂÃ  Ë !APHÊÃ  È "AêHÁÃ  Í #A–HËÃ  Î $AIÈÃ  Ï %APIÍÃ  Ì &AêIÎÃ  Ó 'A–IÏÃ  Ô (EJÌ  )EQJÓ Ò *EëJÔ Ú +E—J Û ,EKÒ Ù -EQKÚ ı .EëKÛ ˆ /E—KÙ ˜ 0ELı ¯ 1IRLˆ ˘ 2IíL˜ ˙ 3I“L¯ ˚ 4IM˘ ¸ 5IRM˙ ˝ 6IíM˚ ˛ 7I“M¸ ˇ 8IN˝  9IRN˛ :MìN∑ ;M”Nˇ <MO  =MSO >MìO ?M”O @MP AMSP 	BMìP 
-CM”P DMQ EMSQ	 FQîQ
- GQ‘Q HQR IQTR JQîR KQ‘R LQS MQTS NQîS OQ‘S PQT QQTT RQîT SU’Tö TUU UUUU VUïU WU’U XUV  YUUV !ZUïV "[U’V #\UW $]UUW  %^UïW! &_U’W" '`UX# (aUUX$ )bUïX% *cU’X& +dUY' ,eUUY( -fUïY) .gU’Y* /hUZ+ 0iUUZ, 1jUïZ- 2kU’Z. 3lU[/ 4mUU[0 5nUï[1 6oU’[2 7pU\3 8qUU\4 9rUï\5 :sU’\6 ;tU]7 <uUU]8 =vYñ]9 >wY÷]: ?xY^; @yYV^< AzYñ^= B{Y÷^> C|Y_? D}YV_@ E~Yñ_A FY÷_B GÄY`C HÅYV`D IÇYñ`E JÉY÷`F KÑYaG LÖYVaH MÜYñaI NáY÷aJ OàYbK PâYVbL QäYñbM RãY÷bN SåYcO TçYVcP UéYñcQ Vè]◊cñ Wê]dR Xë]WdS Yí]ódT Zì]◊dU [î]eV \ï]WeW ]ñ]óeX ^ó]◊eY _ò]fZ `ô]Wf[ aö]óf\ bõ]◊f] cú]g^ dù]Wg_ eû]óg` fü]◊g g†]ha h°]Whb i¢]óhc j£]◊hd k§]ie l•]Wif m¶]óig nß]◊ih o®]ji p©]Wjj q™]ójk r´]◊jl s¨]km t≠]Wkn uÆ]óko vØ]◊kp w∞]lq x±]Wlr y≤]óls z≥]◊lt {¥]mu |µ]Wmv }∂]ómw ~∑]◊mx ∏]ny Äπ]Wnz Å∫aòn{U Çªaÿn|U Éºao}U ÑΩaXo~U ÖæaòoU ÜøaÿoÄU á¿apÅU à¡aXpÇU â¬aòpÉU ä√aÿpÑU ãƒaqÖU å≈aXqÜU ç∆aòqáU é«eŸqàU è»erâU ê…eYräU ë eôrãU íÀeŸröT ìÃesåU îÕeYsçU ïŒeôséU ñœeŸsèU ó–et U ò—eYtêU ô“eôtëU ö”eŸtíU õ‘euìU ú’eYuîU ù÷eôuïU û◊eŸuñU üÿevóU †ŸeYvòU °⁄eôvôU ¢€eŸvöU £‹ewõU §›eYwúU •ﬁeôwùU ¶ﬂeŸwûU ß‡exüU ®·eYx†U ©‚eôx°U ™„i⁄x¢U ´‰iy£U ¨ÂiZy§U ≠Êiöy•U ÆÁi⁄y¶U ØËizßU ∞ÈiZz®U ±Íiöz©U ≤Îi⁄z™U ≥Ïi{´U ¥ÌiZ{¨U µÓiö{≠U ∂Ôi⁄{ÆU ∑i|ØU ∏ÒiZ|∞U πÚiö|±U ∫Ûi⁄|≤U ªÙi}≥U ºım[}¥U Ωˆmõ}µU æ˜m€}∂U ø¯m~∑U ¿˘m[~∏U ¡˙mõ~πU ¬˚m€~∫U √¸mªU ƒ˝m[ºU ≈˛mõΩU ∆ˇm€æU « nÄøU »n[ÄÎT …nõÄ¿U  n€Ä¡U ÀnÅ¬U Ãn[Å√U ÕnõÅƒU Œn€ÅÖU œnÇ≈U –	n[Ç∆U —
-nõÇ«U “n€Ç»U ”nÉ…U ‘n[É U ’rúÉÀU ÷r‹ÉÂT ◊rÑÃU ÿr\ÑÕU ŸrúÑŒU ⁄r‹ÑœU €rÖ–U ‹r\Ö—U ›rúÖ“U ﬁr‹Ö”U ﬂrÜ‘U ‡r\Ü’U ·vùÜ÷U ‚v›Ü◊U „váÿU ‰v]áÜT ÂvùáŸU Êv›á⁄U Á và€U Ë!v]à‹U È"vùà›U Í#v›àﬁU Î$vâﬂU Ï%v]â‡U Ì&zûâ·U Ó'zﬁâ‚U Ô(zä„U )z^ä‰U Ò*zûäÂU Ú+zﬁäÊU Û,zãÁU Ù-z^ãËU ı.zûãÈU ˆ/zﬁãÍU ˜0zåÎU ¯1~_åÏô ˘2~üåÌô ˙3~ﬂåÓô ˚4~çÔô ¸5~_çô ˝6~üçÒô ˛7~ﬂçÚô ˇ8~éÛô  9~_éÙô :~üéıô ;~ﬂéˆô <~è˜ô =~_è¯ô >~üè˘ô ?~ﬂè˙ô @Ç ê˚ô AÇ`ê¸ô 	BÇ†ê˝ô 
-CÇ‡ê˛ô DÇ ëˇô EÇ`ë ö FÇ†ëö GÇ‡ëö HÇ íö IÇ`íö JÇ†íö KÇ‡íö LÇ ìö MÇ`ìö NÇ†ì	ö OÇ‡ì
-ö PÇ îö QÇ`îö RÇ†îö SÇ‡îö TÇ ïö UÇ`ïö VÜ°ïö WÜ·ï<ò XÜ!ñö  YÜañö !ZÜ°ñö "[Ü·ñö #\Ü!óö $]Üaóö %^Ü°óö &_Ü·óö '`Ü!òö (aÜaòö )bä¢òö *cä‚òö +dä"ôö ,eäbôö -fä¢ô ö .gä‚ô!ö /hä"ö"ö 0iécö#ö 1jé£ö$ö 2ké„ö%ö 3lé#õ&ö 4mécõ'ö 5né£õ(ö 6oé„õ)ö 7pé#ú*ö 8qécú+ö 9ré£ú,ö :sé„ú-ö ;té#ù.ö <uídù/ö =ví§ù0ö >wí‰ù1ö ?xí$û2ö @yídû3ö Azí§û4ö B{í‰û5ö C|í$ü6ö D}ídü7ö E~í§ü8ö Fí‰ü9ö GÄí$†:ö HÅíd†;ö IÇí§†<ö JÉí‰†=ö KÑñ%°>ö LÖñe°?ö MÜñ•°@ö NáñÂ°Aö Oàñ%¢Bö Pâñe¢Cö Qäñ•¢Dö RãñÂ¢Eö Såñ%£Fö Tçñe£Gö Uéñ•£Hö VèñÂ£Iö Wêñ%§Jö Xëñe§Kö Yíñ•§Lö ZìöÊ§Mö [îö&•Nö \ïöf•Oö ]ñö¶•Pö ^óöÊ•Qö _òö&¶Rö `ôöf¶Sö aöö¶¶Tö bõöÊ¶Uö cúö&ßVö dùûgßWﬁ eûûßßXﬁ füûÁßYﬁ g†û'®Zﬁ h°ûg®[ﬁ i¢ûß®\ﬁ j£¢Ë®]ﬁ k§¢(©^ﬁ l•¢h©_ﬁ m¶¢®©`ﬁ nß¢Ë©aﬁ o®¢(™bﬁ p©¢h™cﬁ q™¢®™dﬁ r´¢Ë™eﬁ s¨¢(´fﬁ t≠¢h´gﬁ uÆ¢®´hﬁ vØ¢Ë´iﬁ w∞¶)¨jﬁ x±¶i¨kﬁ y≤¶©¨lﬁ z≥¶È¨mﬁ {¥¶)≠nﬁ |µ¶i≠oﬁ }∂¶©≠pﬁ ~∑¶È≠qﬁ ∏¶)Ærﬁ Äπ¶iÆsﬁ Å∫¶©Ætﬁ Çª¶ÈÆuﬁ Éº¶)Øvﬁ ÑΩ¶iØwﬁ Öæ¶©Øxﬁ Üø¶ÈØyﬁ á¿™*∞zﬁ à¡™j∞{ﬁ â¬™™∞|ﬁ ä√™Í∞}ﬁ ãƒ™*±~ﬁ å≈™j±ﬁ ç∆™™±Äﬁ é«™Í±Åﬁ è»™*≤Çﬁ ê…Æk≤Éﬁ ë Æ´≤Ñﬁ íÀÆÎ≤Öﬁ ìÃÆ+≥Üﬁ îÕÆk≥áﬁ ïŒÆ´≥àﬁ ñœÆÎ≥âﬁ ó–Æ+¥äﬁ ò—≤l¥ã" ô“≤¨¥å" ö”≤Ï¥ç" õ‘≤,µé" ú’≤lµè" ù÷≤¨µê" û◊≤Ïµw" üÿ∂-∂ë" †Ÿ∂m∂í" °⁄∂≠∂ì" ¢€∂Ì∂î" £‹∂-∑ï" §›∂m∑ñ" •ﬁ∂≠∑ó" ¶ﬂ∫Ó∑>" ß‡∫.∏ò" ®·∫n∏ô" ©‚∫Æ∏ö" ™„∫Ó∏õ" ´‰æ/πú" ¨Âæoπù" ≠ÊæØπû" ÆÁæÔπü" ØË¬0∫†f ∞È¬p∫°f ±Í ≤∫¢f ≤Î Ú∫£f ≥Ï 2ª§f ¥ÌŒsª•f µÓŒ≥ª¶f ∂ÔŒÛªßf ∑Œ3º®f ∏Ò
-Bº©™ πÚ
-Çº™™ ∫Û
-¬º´™ ªÙ
-Ω¨™ ºı
-BΩ≠™ Ωˆ
-ÇΩÆ™ æ˜
+( C√à  , Dà  0 ECà  4 FÉà  8 G√à  < Hà  @ ICà  D JÉà  H K√à  L Là  P MCà  T NÉà  X O√à  \ Pà  ` QCà  d RÉà  h S√à  l Tà  p UCà  t VÉà  x W√à  | X à   Ä  YD!à  !Ñ  ZÑ"à  "à  [ƒ#à  #å  \$à  $ê  ]D%à  %î  ^Ñ&à  &ò  _ƒ'à  'ú  `(à  (†  aD)à  )§  bÑ*à  *®  cƒ+à  +¨  d,à  ,∞  eE-à  -¥ (fÖ.à  .∏ (g≈/à  /º (h0à  0¿ (iE1à  1ƒ (jÖ2à  2» (k≈3à  3Ã (l4à  4– (mE5à  5‘ (nÖ6à  6ÿ (o≈7à  7‹ (p8à  8‡ (qE9à  9‰ (rÖ:à  :Ë (s≈;à  ;Ï (t<à  < 0uF=à  =Ù 0vÜ>à  >¯ 0w∆?à  ?¸ 0x@à  @ 0yFAà  A0zÜBà  B0{∆Cà  C0|Dà  D0}FEà  E0~ÜFà  F0∆Gà  G0Ä Hà  H 8ÅG Ià  I$8Çá Jà  J(8É« Kà  K,8Ñ!Là  L08ÖG!Mà  M48Üá!Nà  N88á«!Oà  O<8à"Pà  P@8âG"Qà  QD8äá"Rà  RH8ã«"Sà  SL8å#Tà  TP8çG#Uà  UT8éá#Và  VX8è«#Wà  W\8ê$Xà  X`8ëG$Yà  Yd8íá$Zà  Zh8ì«$[à  [l8î%\à  \p8ïG%]à  ]t8ñá%^à  ^x8ó«%_à  _|8ò&`à  `Ä8ôG&aà  aÑ8öá&bà  bà8õ«&cà  cå8ú'dà  dê8ùG'eà  eî8ûá'fà  fò8ü«'gà  gú8†(hà  h†8° H(ià  i§@¢ à(jà  j®@£ »(kà  k¨@§ )là  l∞@• H)mà  m¥@¶ à)nà  n∏@ß »)oà  oº@® *pà  p¿@© H*qà  qƒ@™ à*rà  r»@´ »*sà  sÃ@¨ +tà  t–@≠ H+uà  u‘@Æ à+và  vÿ@Ø »+wà  w‹@∞ ,xà  x‡@±$I,yà  y‰H≤$â,zà  zËH≥$…,{à  {ÏH¥$	-|à  |Hµ$I-}à  }ÙH∂$â-~à  ~¯H∑$…-à  ¸H∏$	.Äà  Ä Hπ$I.Åà  ÅH∫$â.Çà  ÇHª$….Éà  ÉHº(
+/ÑÃ  ÑPΩ(J/ÖÃ  ÖPæ(ä/ÜÃ  ÜPø( /áÃ  áP¿(
+0àÃ  à P¡(J0âÃ  â$P¬(ä0äÃ  ä(P√( 0ãÃ  ã,Pƒ(
+1åÃ  å0P≈,K1çÃ  ç4X∆,ã1éÃ  é8X«,À1èÃ  è<X»,2êÃ  ê@X…,K2ëÃ  ëDX ,ã2íÃ  íHXÀ,À2ìÃ  ìLXÃ,3îÃ  îPXÕ0L3ïÃ  ïT`Œ0å3ñÃ  ñX`œ0Ã3óÃ  ó\`–04òÃ  ò``—0L4ôÃ  ôd`“0å4öÃ  öh`”0Ã4õÃ  õl`‘05úÃ  úp`’0L5ùÃ  ùt`÷0å5ûÃ  ûx`◊0Ã5üÃ  ü|`ÿ06†Ã  †Ä`Ÿ0L6°Ã  °Ñ`⁄0å6¢Ã  ¢à`€0Ã6£Ã  £å`‹07§Ã  §ê`›0L7•Ã  •î`ﬁ0å7¶Ã  ¶ò`ﬂ0Ã7ßÃ  ßú`‡08®Ã  ®†`·0L8©Ã  ©§`‚0å8™Ã  ™®`„0Ã8´Ã  ´¨`‰49¨Ã  ¨∞hÂ4M9ñÃ  ≠¥hÊ4ç9≠Ã  Æ∏hÁ4Õ9ÆÃ  ØºhË4:ØÃ  ∞¿hÈ4M:∞Ã  ±ƒhÍ4ç:±Ã  ≤»hÎ4Õ:≤Ã  ≥ÃhÏ4;≥Ã  ¥–hÌ8N;¥Ã  µ‘pÓ8é;µÃ  ∂ÿpÔ8Œ;∂Ã  ∑‹p8<∑Ã  ∏‡pÒ8N<∏Ã  π‰pÚ8é<πÃ  ∫ËpÛ8Œ<∫Ã  ªÏpÙ8=ªÃ  ºpı8N=öÃ  ΩÙpˆ8é=ºÃ  æ¯p˜8Œ=ΩÃ  ø¸p¯8>æÃ  ¿ p˘8N>øÃ  ¡p˙8é>AÃ  ¬p˚8Œ>¿Ã  √p¸8?¡Ã  ƒp˝8N?¬Ã  ≈p˛8é?√Ã  ∆pˇ8Œ?ƒÃ  «p 9@≈Ã  » p9N@∆Ã  …$p9é@«Ã   (p9Œ@»Ã  À,p9A…Ã  Ã0p9NA Ã  Õ4p9éAÀÃ  Œ8p9ŒAÃÃ  œ<p9BÕÃ  –@p	9NBŒÃ  —Dp
+9éBœÃ  “Hp9ŒB–Ã  ”Lp9C—Ã  ‘Pp9NC“Ã  ’Tp9éC”Ã  ÷Xp9ŒC‘Ã  ◊\p9D’Ã  ÿ`p9ND÷Ã  Ÿdp=èD◊Ã  ⁄hx=œDÿÃ  €lx=EŸÃ  ‹px=OE⁄Ã  ›tx=èE€Ã  ﬁxx=œE‹Ã  ﬂ|x=F›Ã  ‡Äx=OFﬁÃ  ·Ñx=èFﬂÃ  ‚àx=œF‡Ã  „åx=G·Ã  ‰êxAPG‚Ã  ÂîÄAêG„Ã  ÊòÄA–G‰Ã  ÁúÄ AHÂÃ  Ë†Ä!APHÊÃ  È§Ä"AêHÁÃ  Í®Ä#A–HËÃ  Î¨Ä$AIÈÃ  Ï∞Ä%APIÍÃ  Ì¥Ä&AêIÎÃ  Ó∏Ä'A–IÏÃ  ÔºÄ(EJÌ ¿à)EQJÓ Òƒà*EëJÔ Ú»à+E—J ÛÃà,EKÒ Ù–à-EQKÚ ı‘à.EëKÛ ˆÿà/E—KÙ ˜‹à0ELı ¯‡à1IRLˆ ˘‰ê2IíL˜ ˙Ëê3I“L¯ ˚Ïê4IM˘ ¸ê5IRM˙ ˝Ùê6IíM˚ ˛¯ê7I“M¸ ˇ¸ê8IN˝  ê9IRN˛ ê:MìN∑ 	ò;M”Nˇ ò<MO  ò=MSO ò>MìO ò?M”O ò@MP !òAMSP 	%òBMìP 
+)òCM”P -òDMQ 1òEMSQ	 5òFQîQ
+ 9†GQ‘Q =†HQR A†IQTR E†JQîR I†KQ‘R M†LQS Q†MQTS U†NQîS Y†OQ‘S ]†PQT a†QQTT e†RQîT i†SU’Tö m®TUU q®UUUU u®VUïU y®WU’U }®XUV  Å®YUUV !Ö®ZUïV "â®[U’V #ç®\UW $ë®]UUW  %ï®^UïW! &ô®_U’W" 'ù®`UX# (°®aUUX$ )•®bUïX% *©®cU’X& +≠®dUY' ,±®eUUY( -µ®fUïY) .π®gU’Y* /Ω®hUZ+ 0¡®iUUZ, 1≈®jUïZ- 2…®kU’Z. 3Õ®lU[/ 4—®mUU[0 5’®nUï[1 6Ÿ®oU’[2 7›®pU\3 8·®qUU\4 9Â®rUï\5 :È®sU’\6 ;Ì®tU]7 <Ò®uUU]8 =ı®vYñ]9 >˘∞wY÷]: ?˝∞xY^; @∞yYV^< A∞zYñ^= B	∞{Y÷^> C∞|Y_? D∞}YV_@ E∞~Yñ_A F∞Y÷_B G∞ÄY`C H!∞ÅYV`D I%∞ÇYñ`E J)∞ÉY÷`F K-∞ÑYaG L1∞ÖYVaH M5∞ÜYñaI N9∞áY÷aJ O=∞àYbK PA∞âYVbL QE∞äYñbM RI∞ãY÷bN SM∞åYcO TQ∞çYVcP UU∞éYñcQ VY∞è]◊cñ W]∏ê]dR Xa∏ë]WdS Ye∏í]ódT Zi∏ì]◊dU [m∏î]eV \q∏ï]WeW ]u∏ñ]óeX ^y∏ó]◊eY _}∏ò]fZ `Å∏ô]Wf[ aÖ∏ö]óf\ bâ∏õ]◊f] cç∏ú]g^ dë∏ù]Wg_ eï∏û]óg` fô∏ü]◊g gù∏†]ha h°∏°]Whb i•∏¢]óhc j©∏£]◊hd k≠∏§]ie l±∏•]Wif mµ∏¶]óig nπ∏ß]◊ih oΩ∏®]ji p¡∏©]Wjj q≈∏™]ójk r…∏´]◊jl sÕ∏¨]km t—∏≠]Wkn u’∏Æ]óko vŸ∏Ø]◊kp w›∏∞]lq x·∏±]Wlr yÂ∏≤]óls zÈ∏≥]◊lt {Ì∏¥]mu |Ò∏µ]Wmv }ı∏∂]ómw ~˘∏∑]◊mx ˝∏∏]ny Ä∏π]Wnz Å∏∫aòn{U Ç	¿
+ªaÿn|U É¿
+ºao}U Ñ¿
+ΩaXo~U Ö¿
+æaòoU Ü¿
+øaÿoÄU á¿
+¿apÅU à!¿
+¡aXpÇU â%¿
+¬aòpÉU ä)¿
+√aÿpÑU ã-¿
+ƒaqÖU å1¿
+≈aXqÜU ç5¿
+∆aòqáU é9¿
+«eŸqàU è=»
+»erâU êA»
+…eYräU ëE»
+ eôrãU íI»
+ÀeŸröT ìM»
+ÃesåU îQ»
+ÕeYsçU ïU»
+ŒeôséU ñY»
+œeŸsèU ó]»
+–et U òa»
+—eYtêU ôe»
+“eôtëU öi»
+”eŸtíU õm»
+‘euìU úq»
+’eYuîU ùu»
+÷eôuïU ûy»
+◊eŸuñU ü}»
+ÿevóU †Å»
+ŸeYvòU °Ö»
+⁄eôvôU ¢â»
+€eŸvöU £ç»
+‹ewõU §ë»
+›eYwúU •ï»
+ﬁeôwùU ¶ô»
+ﬂeŸwûU ßù»
+‡exüU ®°»
+·eYx†U ©•»
+‚eôx°U ™©»
+„i⁄x¢U ´≠–
+‰iy£U ¨±–
+ÂiZy§U ≠µ–
+Êiöy•U Æπ–
+Ái⁄y¶U ØΩ–
+ËizßU ∞¡–
+ÈiZz®U ±≈–
+Íiöz©U ≤…–
+Îi⁄z™U ≥Õ–
+Ïi{´U ¥—–
+ÌiZ{¨U µ’–
+Óiö{≠U ∂Ÿ–
+Ôi⁄{ÆU ∑›–
+i|ØU ∏·–
+ÒiZ|∞U πÂ–
+Úiö|±U ∫È–
+Ûi⁄|≤U ªÌ–
+Ùi}≥U ºÒ–
+ım[}¥U Ωıÿ
+ˆmõ}µU æ˘ÿ
+˜m€}∂U ø˝ÿ
+¯m~∑U ¿ÿ
+˘m[~∏U ¡ÿ
+˙mõ~πU ¬	ÿ
+˚m€~∫U √ÿ
+¸mªU ƒÿ
+˝m[ºU ≈ÿ
+˛mõΩU ∆ÿ
+ˇm€æU «ÿ
+ nÄøU »!ÿ
+n[ÄÎT …%ÿ
+nõÄ¿U  )ÿ
+n€Ä¡U À-ÿ
+nÅ¬U Ã1ÿ
+n[Å√U Õ5ÿ
+nõÅƒU Œ9ÿ
+n€ÅÖU œ=ÿ
+nÇ≈U –Aÿ
+	n[Ç∆U —Eÿ
+
+nõÇ«U “Iÿ
+n€Ç»U ”Mÿ
+nÉ…U ‘Qÿ
+n[É U ’Uÿ
+rúÉÀU ÷Y‡
+r‹ÉÂT ◊]‡
+rÑÃU ÿa‡
+r\ÑÕU Ÿe‡
+rúÑŒU ⁄i‡
+r‹ÑœU €m‡
+rÖ–U ‹q‡
+r\Ö—U ›u‡
+rúÖ“U ﬁy‡
+r‹Ö”U ﬂ}‡
+rÜ‘U ‡Å‡
+r\Ü’U ·Ö‡
+vùÜ÷U ‚âË
+v›Ü◊U „çË
+váÿU ‰ëË
+v]áÜT ÂïË
+vùáŸU ÊôË
+v›á⁄U ÁùË
+ và€U Ë°Ë
+!v]à‹U È•Ë
+"vùà›U Í©Ë
+#v›àﬁU Î≠Ë
+$vâﬂU Ï±Ë
+%v]â‡U ÌµË
+&zûâ·U Óπ
+'zﬁâ‚U ÔΩ
+(zä„U ¡
+)z^ä‰U Ò≈
+*zûäÂU Ú…
++zﬁäÊU ÛÕ
+,zãÁU Ù—
+-z^ãËU ı’
+.zûãÈU ˆŸ
+/zﬁãÍU ˜›
+0zåÎU ¯·
+1~_åÏô ˘Â¯2~üåÌô ˙È¯3~ﬂåÓô ˚Ì¯4~çÔô ¸Ò¯5~_çô ˝ı¯6~üçÒô ˛˘¯7~ﬂçÚô ˇ˝¯8~éÛô  ¯9~_éÙô ¯:~üéıô 
+¯;~ﬂéˆô ¯<~è˜ô ¯=~_è¯ô ¯>~üè˘ô ¯?~ﬂè˙ô ¯@Ç ê˚ô " AÇ`ê¸ô 	& BÇ†ê˝ô 
+* CÇ‡ê˛ô . DÇ ëˇô 2 EÇ`ë ö 6 FÇ†ëö : GÇ‡ëö > HÇ íö B IÇ`íö F JÇ†íö J KÇ‡íö N LÇ ìö R MÇ`ìö V NÇ†ì	ö Z OÇ‡ì
+ö ^ PÇ îö b QÇ`îö f RÇ†îö j SÇ‡îö n TÇ ïö r UÇ`ïö v VÜ°ïö zWÜ·ï<ò ~XÜ!ñö  ÇYÜañö !ÜZÜ°ñö "ä[Ü·ñö #é\Ü!óö $í]Üaóö %ñ^Ü°óö &ö_Ü·óö 'û`Ü!òö (¢aÜaòö )¶bä¢òö *™cä‚òö +Ædä"ôö ,≤eäbôö -∂fä¢ô ö .∫gä‚ô!ö /æhä"ö"ö 0¬iécö#ö 1∆jé£ö$ö 2 ké„ö%ö 3Œlé#õ&ö 4“mécõ'ö 5÷né£õ(ö 6⁄oé„õ)ö 7ﬁpé#ú*ö 8‚qécú+ö 9Êré£ú,ö :Ísé„ú-ö ;Óté#ù.ö <Úuídù/ö =ˆ ví§ù0ö >˙ wí‰ù1ö ?˛ xí$û2ö @	 yídû3ö A	 zí§û4ö B
+	 {í‰û5ö C	 |í$ü6ö D	 }ídü7ö E	 ~í§ü8ö F	 í‰ü9ö G	 Äí$†:ö H"	 Åíd†;ö I&	 Çí§†<ö J*	 Éí‰†=ö K.	 Ññ%°>ö L2	(Öñe°?ö M6	(Üñ•°@ö N:	(áñÂ°Aö O>	(àñ%¢Bö PB	(âñe¢Cö QF	(äñ•¢Dö RJ	(ãñÂ¢Eö SN	(åñ%£Fö TR	(çñe£Gö UV	(éñ•£Hö VZ	(èñÂ£Iö W^	(êñ%§Jö Xb	(ëñe§Kö Yf	(íñ•§Lö Zj	(ìöÊ§Mö [n	0îö&•Nö \r	0ïöf•Oö ]v	0ñö¶•Pö ^z	0óöÊ•Qö _~	0òö&¶Rö `Ç	0ôöf¶Sö aÜ	0öö¶¶Tö bä	0õöÊ¶Uö cé	0úö&ßVö dí	0ùûgßWﬁ eñ	8ûûßßXﬁ fö	8üûÁßYﬁ gû	8†û'®Zﬁ h¢	8°ûg®[ﬁ i¶	8¢ûß®\ﬁ j™	8£¢Ë®]ﬁ kÆ	@§¢(©^ﬁ l≤	@•¢h©_ﬁ m∂	@¶¢®©`ﬁ n∫	@ß¢Ë©aﬁ oæ	@®¢(™bﬁ p¬	@©¢h™cﬁ q∆	@™¢®™dﬁ r 	@´¢Ë™eﬁ sŒ	@¨¢(´fﬁ t“	@≠¢h´gﬁ u÷	@Æ¢®´hﬁ v⁄	@Ø¢Ë´iﬁ wﬁ	@∞¶)¨jﬁ x‚	H±¶i¨kﬁ yÊ	H≤¶©¨lﬁ zÍ	H≥¶È¨mﬁ {Ó	H¥¶)≠nﬁ |Ú	Hµ¶i≠oﬁ }ˆ	H∂¶©≠pﬁ ~˙	H∑¶È≠qﬁ ˛	H∏¶)Ærﬁ Ä
+Hπ¶iÆsﬁ Å
+H∫¶©Ætﬁ Ç
+
+Hª¶ÈÆuﬁ É
+Hº¶)Øvﬁ Ñ
+HΩ¶iØwﬁ Ö
+Hæ¶©Øxﬁ Ü
+Hø¶ÈØyﬁ á
+H¿™*∞zﬁ à"
+P¡™j∞{ﬁ â&
+P¬™™∞|ﬁ ä*
+P√™Í∞}ﬁ ã.
+Pƒ™*±~ﬁ å2
+P≈™j±ﬁ ç6
+P∆™™±Äﬁ é:
+P«™Í±Åﬁ è>
+P»™*≤Çﬁ êB
+P…Æk≤Éﬁ ëF
+X Æ´≤Ñﬁ íJ
+XÀÆÎ≤Öﬁ ìN
+XÃÆ+≥Üﬁ îR
+XÕÆk≥áﬁ ïV
+XŒÆ´≥àﬁ ñZ
+XœÆÎ≥âﬁ ó^
+X–Æ+¥äﬁ òb
+X—≤l¥ã" ôf
+`“≤¨¥å" öj
+`”≤Ï¥ç" õn
+`‘≤,µé" úr
+`’≤lµè" ùv
+`÷≤¨µê" ûz
+`◊≤Ïµw" ü~
+`ÿ∂-∂ë" †Ç
+hŸ∂m∂í" °Ü
+h⁄∂≠∂ì" ¢ä
+h€∂Ì∂î" £é
+h‹∂-∑ï" §í
+h›∂m∑ñ" •ñ
+hﬁ∂≠∑ó" ¶ö
+hﬂ∫Ó∑>" ßû
+p‡∫.∏ò" ®¢
+p·∫n∏ô" ©¶
+p‚∫Æ∏ö" ™™
+p„∫Ó∏õ" ´Æ
+p‰æ/πú" ¨≤
+xÂæoπù" ≠∂
+xÊæØπû" Æ∫
+xÁæÔπü" Øæ
+xË¬0∫†f ∞¬
+ÄÈ¬p∫°f ±∆
+ÄÍ ≤∫¢f ≤ 
+êÎ Ú∫£f ≥Œ
+êÏ 2ª§f ¥“
+êÌŒsª•f µ÷
+òÓŒ≥ª¶f ∂⁄
+òÔŒÛªßf ∑ﬁ
+òŒ3º®f ∏‚
+òÒ
+Bº©™ πÊ
+Ú
+Çº™™ ∫Í
+Û
+¬º´™ ªÓ
+Ù
+Ω¨™ ºÚ
+ı
+BΩ≠™ Ωˆ
+ˆ
+ÇΩÆ™ æ˙
+˜
 ¬Ω©™
-π¯
-æ©™π˘
-Bæ©™π˙
+πÊ*¯
+æ©™πÊ:˘
+Bæ©™πÊJ˙
 Çæ©™
-π˚
-¬æ©™π¸
-ø©™π˝
-Bø©™"π˛
-Çø©™&πˇ
-¬ø©™*π ¿©™.πB¿™™2∫Ç¿™™6∫¬¿™™:∫¡™™>∫B¡™™B ∫Ç¡™™F"∫¬¡™™J$∫¬™™N&∫	B¬™™R(∫
-Ç¬™™V*∫¬¬™™Z,∫√´™^.ªB√´™b0ªÇ√´™f2ª¬√´™j4ªƒ´™n6ªBƒ´™r8ªÇƒ´™v:ª¬ƒ´™z<ª≈´™~>ªB≈´™Ç@ªÇ≈´™ÜBª¬≈´™äDª∆´™éFªB∆´™íHªÇ∆´™ñJª¬∆´™öLª«´™ûNªB«´™¢PªÇ«´™¶Rª¬«¨™™Tº »¨™ÆVº!B»¨™≤Xº"Ç»¨™∂Zº#¬»¨™∫\º$…¨™æ^º%B…¨™¬`º&Ç…¨™∆bº'¬…≠™ dΩ( ≠™ŒfΩ)B ≠™“hΩ*Ç ≠™÷jΩ+¬ ≠™⁄lΩ,À≠™ﬁnΩ-BÀ≠™‚pΩ.ÇÀ≠™ÊrΩ/¬À≠™ÍtΩ0Ã≠™ÓvΩ1BÃÆ™Úxæ2ÇÃÆ™ˆzæ3¬ÃÆ™˙|æ4ÕÆ™˛~æ5BÕÆ™Åæ6ÇÕÆ™Éæ7¬ÕÆ™
-Öæ8ŒÆ™áæ9BŒÆ™âæ:ÇŒÆ™ãæ;¬ŒÆ™çæ<œÆ™èæ=BœÆ™"ëæ
+πÊZ˚
+¬æ©™πÊj¸
+ø©™πÊz˝
+Bø©™"πÊä˛
+Çø©™&πÊöˇ
+¬ø©™*πÊ™ ¿©™.πÊ∫B¿™™2∫Í Ç¿™™6∫Í⁄¬¿™™:∫ÍÍ¡™™>∫Í˙B¡™™B ∫Í
+Ç¡™™F"∫Í¬¡™™J$∫Í*¬™™N&∫Í:	B¬™™R(∫ÍJ
+Ç¬™™V*∫ÍZ¬¬™™Z,∫Íj√´™^.ªÓzB√´™b0ªÓäÇ√´™f2ªÓö¬√´™j4ªÓ™ƒ´™n6ªÓ∫Bƒ´™r8ªÓ Çƒ´™v:ªÓ⁄¬ƒ´™z<ªÓÍ≈´™~>ªÓ˙B≈´™Ç@ªÓ
+Ç≈´™ÜBªÓ¬≈´™äDªÓ*∆´™éFªÓ:B∆´™íHªÓJÇ∆´™ñJªÓZ¬∆´™öLªÓj«´™ûNªÓzB«´™¢PªÓäÇ«´™¶RªÓö¬«¨™™TºÚ™ »¨™ÆVºÚ∫!B»¨™≤XºÚ "Ç»¨™∂ZºÚ⁄#¬»¨™∫\ºÚÍ$…¨™æ^ºÚ˙%B…¨™¬`ºÚ
+&Ç…¨™∆bºÚ'¬…≠™ dΩˆ*( ≠™ŒfΩˆ:)B ≠™“hΩˆJ*Ç ≠™÷jΩˆZ+¬ ≠™⁄lΩˆj,À≠™ﬁnΩˆz-BÀ≠™‚pΩˆä.ÇÀ≠™ÊrΩˆö/¬À≠™ÍtΩˆ™0Ã≠™ÓvΩˆ∫1BÃÆ™Úxæ˙ 2ÇÃÆ™ˆzæ˙⁄3¬ÃÆ™˙|æ˙Í4ÕÆ™˛~æ˙˙5BÕÆ™Åæ˙
+6ÇÕÆ™Éæ˙7¬ÕÆ™
+Öæ˙*8ŒÆ™áæ˙:9BŒÆ™âæ˙J:ÇŒÆ™ãæ˙Z;¬ŒÆ™çæ˙j<œÆ™èæ˙z=BœÆ™"ëæ˙ä
