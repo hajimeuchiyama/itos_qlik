@@ -2,7 +2,7 @@
  <QvdTableHeader>
    <QvBuildNo>50600</QvBuildNo>
    <CreatorDoc>C:\Users\huchiyama\Documents\Qlik\Sense\Apps\COD KML Parser (Data Load).qvf</CreatorDoc>
-   <CreateUtcTime>2019-02-08 23:10:58</CreateUtcTime>
+   <CreateUtcTime>2019-02-11 16:31:42</CreateUtcTime>
    <SourceCreateUtcTime></SourceCreateUtcTime>
    <SourceFileUtcTime></SourceFileUtcTime>
    <SourceFileSize>-1</SourceFileSize>
@@ -78,6 +78,28 @@
        </Tags>
      </QvdFieldHeader>
      <QvdFieldHeader>
+       <FieldName>#date+start</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>29</Offset>
+       <Length>13</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
        <FieldName>Shape_Length</FieldName>
        <BitOffset>0</BitOffset>
        <BitWidth>9</BitWidth>
@@ -91,7 +113,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>429</NoOfSymbols>
-       <Offset>29</Offset>
+       <Offset>42</Offset>
        <Length>11908</Length>
        <Comment></Comment>
        <Tags>
@@ -112,7 +134,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>429</NoOfSymbols>
-       <Offset>11937</Offset>
+       <Offset>11950</Offset>
        <Length>12459</Length>
        <Comment></Comment>
        <Tags>
@@ -133,7 +155,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>1</NoOfSymbols>
-       <Offset>24396</Offset>
+       <Offset>24409</Offset>
        <Length>5</Length>
        <Comment></Comment>
        <Tags>
@@ -155,7 +177,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>10</NoOfSymbols>
-       <Offset>24401</Offset>
+       <Offset>24414</Offset>
        <Length>88</Length>
        <Comment></Comment>
        <Tags>
@@ -177,7 +199,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>10</NoOfSymbols>
-       <Offset>24489</Offset>
+       <Offset>24502</Offset>
        <Length>89</Length>
        <Comment></Comment>
        <Tags>
@@ -198,7 +220,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>10</NoOfSymbols>
-       <Offset>24578</Offset>
+       <Offset>24591</Offset>
        <Length>70</Length>
        <Comment></Comment>
        <Tags>
@@ -222,7 +244,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>10</NoOfSymbols>
-       <Offset>24648</Offset>
+       <Offset>24661</Offset>
        <Length>80</Length>
        <Comment></Comment>
        <Tags>
@@ -244,7 +266,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>1</NoOfSymbols>
-       <Offset>24728</Offset>
+       <Offset>24741</Offset>
        <Length>2</Length>
        <Comment></Comment>
        <Tags>
@@ -266,7 +288,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>58</NoOfSymbols>
-       <Offset>24730</Offset>
+       <Offset>24743</Offset>
        <Length>631</Length>
        <Comment></Comment>
        <Tags>
@@ -287,7 +309,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>58</NoOfSymbols>
-       <Offset>25361</Offset>
+       <Offset>25374</Offset>
        <Length>580</Length>
        <Comment></Comment>
        <Tags>
@@ -311,7 +333,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>58</NoOfSymbols>
-       <Offset>25941</Offset>
+       <Offset>25954</Offset>
        <Length>638</Length>
        <Comment></Comment>
        <Tags>
@@ -333,7 +355,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>360</NoOfSymbols>
-       <Offset>26579</Offset>
+       <Offset>26592</Offset>
        <Length>4680</Length>
        <Comment></Comment>
        <Tags>
@@ -357,7 +379,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>360</NoOfSymbols>
-       <Offset>31259</Offset>
+       <Offset>31272</Offset>
        <Length>5040</Length>
        <Comment></Comment>
        <Tags>
@@ -379,7 +401,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>360</NoOfSymbols>
-       <Offset>36299</Offset>
+       <Offset>36312</Offset>
        <Length>3364</Length>
        <Comment></Comment>
        <Tags>
@@ -401,7 +423,7 @@
          <Thou></Thou>
        </NumberFormat>
        <NoOfSymbols>1</NoOfSymbols>
-       <Offset>39663</Offset>
+       <Offset>39676</Offset>
        <Length>2</Length>
        <Comment></Comment>
        <Tags>
@@ -413,12 +435,12 @@
    <Compression></Compression>
    <RecordByteSize>11</RecordByteSize>
    <NoOfRecords>429</NoOfRecords>
-   <Offset>39665</Offset>
+   <Offset>39678</Offset>
    <Length>4719</Length>
    <Lineage></Lineage>
    <Comment></Comment>
  </QvdTableHeader>
- Cameroon Cameroun (le) CM Ø‰ÊôÍ∫G@47.46028445982062 á»,Æ<	,@14.018041079489434 ﬁoù"≥R.@15.161522943228132 ±+ŸJOˇ1@17.997303655643638 µ_NnÔ_)@12.687373587672349 ©áå¥#@9.554111854133735 /[3Ã¬*+@13.583517438191477 >¶ÂÙ@6.4887691385952335 pÍä,≠¡@6.689137168864008 l‡@é)@12.777528764432837 RóTv#@9.730507532669126 JR•Gñ@5.515221709695263 
+ Cameroon Cameroun (le) CM 2019-Jan-04 Ø‰ÊôÍ∫G@47.46028445982062 á»,Æ<	,@14.018041079489434 ﬁoù"≥R.@15.161522943228132 ±+ŸJOˇ1@17.997303655643638 µ_NnÔ_)@12.687373587672349 ©áå¥#@9.554111854133735 /[3Ã¬*+@13.583517438191477 >¶ÂÙ@6.4887691385952335 pÍä,≠¡@6.689137168864008 l‡@é)@12.777528764432837 RóTv#@9.730507532669126 JR•Gñ@5.515221709695263 
 †k∆@5.4434588614167385 X?Ù5îí@4.893143504173928 Àç /Õ§@6.910938965188914 IL ¶@6.912232577875559 bŸ÷’ÑÅ@5.376483288992263 1íu€@2.6337185238246765 E∆i~ˆ’@4.45894811173054 ı}}$ãi@7.853069849166322 æâÅ	ò@3.074236083820522 d©ÍŒ0ˇ?1.949416079000536 bS˘bˇË?0.7811751241343391 ∂%µ|Œ@4.025201748424868 oº\¿™@4.416749428750122 mFö7Ø@3.8763107627826714 ûÑ'.º @8.367539614732149 ÊùEµ‡˝#@9.995855011699813 ì®%¢@5.908253277187799 m˝!=@7.309612738084394 œ⁄EµÒ@3.4930215317893736 %gÅëâ@7.134342260740401 LÎ◊°k0@3.8986427921312607 &N:¡˙µ@3.088857183067165 º¨Ô®ï@2.1980761265164954 ßÄÀ“ñ@3.573253294787793 Z⁄[\ª@4.18268341360689 z©◊ØîŸ@4.212481257951703 qÈúvõ4@5.801374295546666 œÂ} À@2.3885722942038465 ˚˙Ëç$€@6.2140066312265345 áÏ:lx‰@6.473115626427108 Ωâ3ä2
 @3.2593737408617174 ;?)©‰”!@8.91385391834739 "5U:<X@2.1680836255315095 Õ	«>v¡@2.2194638161174454 /QñŒ3é
 @3.3194347514746805 }MlÈóÀ@2.974410842530857 ◊V∏¸@2.373069227508363 1π˜´ @2.0066739169334586 √ﬂ≠6˚?˘?1.5781204353242948 ıjÅû.¸?1.7613812033293332 úçJú≈€¯?1.55365525294551 —ò^väºÓ?0.960515242758243 Û°%y±Ô?0.9904142126983672 ª| V∆˚?1.7359226125334277 nƒ^∑∂˘Í?0.8429826337288782 ∫$AVN˜@2.245754884589215 π˛ ©ß@4.663733646161455 ˙ÿNAÛU @8.167871514201114 DW™Wøç@4.8884252259939025 ¯ÅØÂ∫π@5.681377018773212 óä√¿ß@3.706567293136071 ëŒOëT[@2.4195948936920293 œ◊tT¸˘	@3.247063312354818 ÑJƒ
