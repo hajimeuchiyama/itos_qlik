@@ -1,0 +1,112 @@
+/* ==========================================================================
+<SUB Name>: LoadCODKML
+<Parameter>: vCountryCode (ISO Alpha 3 Country Code)
+<Purpose>:
+Load the COD KML files created by the "COD KML Parser (Data Load)" app. 
+<Platform Application (Version)>: Qlik Sense Desktop (November 2018 Patch 2)
+<How it works>:
+If the Internet is connected, it will load from a set of web files hosted by
+the UN-OCHA's HDX website maintained by ITOS.  If offline, it will load the 
+COD KML files from the local directoy under <user>\Documents\Qlik\Sense\Data.
+
+Without the Internet, the data files must be located in the precise location as
+specified by the installer program. Otherwise, the data won't be loaded.
+
+Note that this sub routine does not work unless the data connections are precisely
+configured as described below.
+
+<Data Connection Configuration>
+1. A web file connection (name = "COD <vCountryCode> FileList") that connects to 
+   the file list on the web.
+2. A set of web files connections to point to each KML files (name = "UN-OCHA-<KML file name>").
+   For example, if the KML file name is "COD_MLI_Admin0.qvd", the connection name
+   should be "UN-OCHA-COD_MLI_Admin0.qvd".
+
+=============================================================================*/
+SUB LoadCODKML(vCountryCode)
+
+Set ErrorMode=0;  // While loading the file_list table from the web, allow script to run with errros.
+
+Set vFileList=;
+
+Set vWebFileLibHeader = 'lib://UN-OCHA-';
+
+// Load the file list table and create a string to contain the file list
+[_file_list]:
+Load 
+	Chr(39) & '$(vWebFileLibHeader)' & Concat(file_name,Chr(39)&','&Chr(39)& '$(vWebFileLibHeader)') & Chr(39)as file_list
+;
+LOAD
+    file_name
+FROM [lib://COD $(vCountryCode) FileList]
+(txt, codepage is 28591, embedded labels, delimiter is '\t', msq);
+
+
+Let vFileList = Peek('file_list');  // Put the file list string into a variable
+Drop Table _file_list;
+
+Set ErrorMode=1;  // Reset the error mode to default
+
+
+If Len('$(vFileList)') = 0 Then // Internet connection is failed
+
+  //Directory lib://Documents - Qlik/Sense/Data/UN-OCHA/COD/$(vCountryCode)/;
+
+  Set vLocation = 'lib://Documents - Qlik/Sense/Data/UN-OCHA/COD/$(vCountryCode)/';
+
+  For Each vTable in FileList('$(vLocation)*.qvd')
+  //For Each vTable in FileList('*.qvd')
+
+    Let vQVD = TextBetween('$(vTable)','$(vLocation)','.qvd');
+    // Let vQVD = SubField('$(vTable)','.',1);
+
+    Trace ===================
+    Loading $(vQVD)
+    ;
+    [$(vQVD)]:
+    LOAD *
+    FROM [$(vTable)]
+    (qvd);
+    
+    // If the table name does not contain "Admin", store the table name in "vAdminTable"
+    If WildMatch('$(vQVD)','*Admin*') = 0 then
+    	Set vAdminTable = $(vQVD); 
+    End If
+
+  Next vTable
+
+Else // Internet connection is available
+
+  For Each vTable in $(vFileList)
+    Let vQVD = TextBetween('$(vTable)','$(vWebFileLibHeader)','.qvd');
+    Trace ===================
+    Loading from HDX... $(vQVD)
+    ;
+    [$(vQVD)]:
+    LOAD *
+    FROM [$(vTable)]
+    (qvd);
+	
+    // If the table name does not contain "Admin", store the table name in "vAdminTable"
+    If WildMatch('$(vQVD)','*Admin*') = 0 then
+    	Set vAdminTable = $(vQVD); 
+    End If
+
+  Next vTable
+
+
+End If
+
+// Get country name from the vAdminTable table so that it can be used in front-end app
+Let vCountryName = Peek('#country+i_fr+name',0,'$(vAdminTable)');
+
+// Clean variables
+Set vAdminTable =;
+Set vTable=;
+Set vQVD=;
+Set vLocation=;
+Set vFileList=;
+Set vWebFileLibHeader=;
+Set vCountryCode =;
+
+End SUB
