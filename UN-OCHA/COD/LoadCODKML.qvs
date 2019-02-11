@@ -1,5 +1,7 @@
 /* ==========================================================================
 <SUB Name>: LoadCODKML
+<Author>: Hajime Uchiyama
+<Last Updated>: 2/11/2019
 <Parameter>: vCountryCode (ISO Alpha 3 Country Code)
 <Purpose>:
 Load the COD KML files created by the "COD KML Parser (Data Load)" app. 
